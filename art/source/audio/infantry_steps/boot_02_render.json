@@ -1,0 +1,81 @@
+{
+  "status": "completed",
+  "output": "C:\\Projects\\totalrus\\assets\\audio\\boot_02.wav",
+  "dry_run": false,
+  "commands": [
+    "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\infantry_steps\\Fantozzi\\Fantozzi-footsteps\\flac\\Fantozzi-SandL3.flac' -filter_complex '[0:a:0]volume=-3.9905dB,pan=mono|c0=0.5*c0+0.5*c1[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.282:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\boot_02.wav'"
+  ],
+  "probe": {
+    "file": "C:\\Projects\\totalrus\\assets\\audio\\boot_02.wav",
+    "format": "wav",
+    "duration": 0.299524,
+    "start_time": null,
+    "size_bytes": 26514,
+    "bitrate": 708163,
+    "video": null,
+    "audio": {
+      "codec": "pcm_s16le",
+      "channels": 1,
+      "channel_layout": null,
+      "sample_rate": 44100,
+      "bitrate": 705600,
+      "duration": 0.299524,
+      "start_time": null,
+      "tagged_duration": null
+    },
+    "subtitle_streams": 0,
+    "data_streams": 0,
+    "stream_counts": {
+      "video": 0,
+      "audio": 1
+    },
+    "chapters": [],
+    "tags": {
+      "artist": "Fantozzi"
+    },
+    "timecode": {
+      "value": null,
+      "drop_frame": null,
+      "source": null
+    },
+    "subtitle_stream_details": [],
+    "audio_streams": [
+      {
+        "index": 0,
+        "codec": "pcm_s16le",
+        "channels": 1,
+        "channel_layout": null,
+        "sample_rate": 44100,
+        "language": null,
+        "title": null
+      }
+    ]
+  },
+  "output_identity": {
+    "size": 26514,
+    "mtime_ns": 1794745115228585700
+  },
+  "verified": true,
+  "verification": [
+    {
+      "step": "probe",
+      "ok": true
+    }
+  ],
+  "unverified": [
+    "mix_balance"
+  ],
+  "audio": {
+    "voice": null,
+    "stereo_widen": null,
+    "effects": false,
+    "effects_volume": null
+  },
+  "video": false,
+  "audio_stream": 0,
+  "dynamics": [],
+  "dropped_non_av_streams": false
+}
+
+$ 'C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\Projects\totalrus\art\source\audio\infantry_steps\Fantozzi\Fantozzi-footsteps\flac\Fantozzi-SandL3.flac' -filter_complex '[0:a:0]volume=-3.9905dB,pan=mono|c0=0.5*c0+0.5*c1[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.282:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\Projects\totalrus\assets\audio\boot_02.wav'
+wrote C:\Projects\totalrus\assets\audio\boot_02.wav (0.300s, audio pcm_s16le 1ch 44100Hz)

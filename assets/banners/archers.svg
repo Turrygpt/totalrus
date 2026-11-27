@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432" height="600" viewBox="0 0 216 300">
+  <defs><linearGradient id="cloth"><stop stop-color="#626262"/><stop offset=".48" stop-color="#8b8b8b"/><stop offset="1" stop-color="#666666"/></linearGradient></defs>
+  <path fill="url(#cloth)" stroke="#a2733c" stroke-width="4" d="M9 7H207V239L108 290 9 239Z"/>
+  <path fill="none" stroke="#c1a06a" stroke-width="2" d="M19 17H197V233L108 279 19 233Z"/>
+  <path d="M56 101c17 11 25 16 35 4 10-12 24-12 34 0 10 12 18 7 35-4" fill="none" stroke="#ead5a7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M55 101l53 61 53-61m-53 85V83" fill="none" stroke="#d1b076" stroke-width="4"/>
+  <path d="M108 64l13 24-13-7-13 7zm-15 100 15 11 15-11-3 21-12 10-12-10z" fill="#ead5a7"/>
+</svg>

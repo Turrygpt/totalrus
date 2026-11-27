@@ -1,0 +1,106 @@
+External assets used by TotalRus combat prototype
+
+Audio / sword_*.ogg and clash_*.ogg
+20 Sword Sound Effects (Attacks and Clashes) — StarNinjas
+https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes
+License: CC0 1.0
+Source archives: sword_-_starninjas_1.zip, sword_clash_-_starninjas_0.zip
+
+Audio / grunt_*.wav and death_*.wav
+Male Grunt/Yelling sounds — HaelDB
+https://opengameart.org/content/male-gruntyelling-sounds
+License selected: CC0 1.0 (page also offers OGA-BY 3.0)
+Source: yelling sounds.zip; selected original voice clips, renamed without editing.
+
+Audio / step_*.ogg (legacy, retained but no longer used for movement)
+Footsteps — GboxMikeFozzy
+https://opengameart.org/content/footsteps-0
+License: CC0 1.0
+Six original individual steps, renamed without editing.
+
+Audio / boot_00.wav through boot_05.wav
+Fantozzi's Footsteps (Grass/Sand & Stone) — Fantozzi, single-step edits by qubodup.
+https://opengameart.org/content/fantozzis-footsteps-grasssand-stone
+License: CC0 1.0. Six separate Sand footsteps, also intended for grass by the publisher.
+Converted to mono 44.1 kHz PCM16, peak -4 dBFS, 2 ms fade-in and 18 ms fade-out.
+Source archive, source/license page, preparation script and QC: art/source/audio/infantry_steps.
+
+Audio / hoof_00.wav through hoof_07.wav
+SRS_Foley_Horse_Galloping.wav — StephenSaldanha.
+https://freesound.org/people/StephenSaldanha/sounds/165532/
+License: CC0 1.0. Eight individual hoof contacts cut from the public HQ MP3 preview.
+Mono 44.1 kHz PCM16, 0.13-0.15 s, peak approximately -3 dBFS,
+2 ms fade-in and 18 ms fade-out. Separate walking and galloping rhythms are driven in-game.
+Source recording, source/license page, preparation script and QC: art/source/audio/horse_hooves.
+Discovery/reference pack: Horse gallop on different surfaces, congusbongus,
+https://opengameart.org/content/horse-gallop-on-different-surfaces
+Its archive has mixed CC0 / CC-BY 4.0 licenses; no other pack samples are used in-game.
+
+Terrain / grass_*.jpg and rock_*.jpg
+Grass 004 and Rock 030 — ambientCG / Lennart Demes
+https://ambientcg.com/view?id=Grass004
+https://ambientcg.com/view?id=Rock030
+https://docs.ambientcg.com/license/
+License: CC0 1.0. Original 2K JPG Color, NormalGL and Roughness maps.
+
+CC0 license: https://creativecommons.org/publicdomain/zero/1.0/
+Accessed 2026-11-15. Unmodified downloaded archives retained in art/downloads.
+Warrior and weapon models/textures were supplied by the user.
+Combat animations, grass geometry, rock shape variation, shaders and effects were authored for this project.
+
+Additional sword-and-shield animation pack supplied by the user:
+Lite Sword and Shield Pack.zip, 17 Mixamo-named FBX clips.
+Retargeted locally onto the warrior's skeleton; originals retained in art/source/sword_shield_pack.
+The downloaded pack's license is not inferred or replaced by the CC0 terms above.
+
+Archer, weapons and animation pack supplied by the user:
+bowman.zip; archery weapon 3d model.glb; Pro Longbow Pack.zip.
+Original files and extracted clips retained in art/source. Locally normalized,
+retargeted, split and decimated; no rights or license for these packs are inferred.
+art/archer.blend retains the editable character and selected animation clips.
+Infantry motion refinements and bow victory animation authored locally for this project.
+
+Audio / charge_*.wav: additional original clips from the same HaelDB CC0 archive above.
+Audio / bow_*.wav and arrow_fly_*.wav:
+English Longbow Shoot and Scythian Recurve Arrow Pass, Still North Media.
+https://opengameart.org/content/medieval-sound-effects-weapon-textures
+License: CC0 1.0. Four individual releases and one passing arrow cut from original recordings;
+release gain +10 dB, short fade-out. Archives and source recordings in art/source/audio.
+
+Audio / arrow_wood_01.wav: Arrow Impact, Twisted_Euphoria (Freesound #205938).
+https://freesound.org/people/Twisted_Euphoria/sounds/205938/
+Audio / arrow_body_01.wav: arrow_damage.wav, braqoon (Freesound #161098).
+https://freesound.org/people/braqoon/sounds/161098/
+Both CC0 1.0. Public high-quality MP3 previews decoded to mono WAV with short fade-out;
+body impact attenuated by 3 dB. Sources retained in art/source/audio.
+
+Princely cape mesh and wool shader authored locally; editable art/princely_cape.blend.
+Distant pose meshes in assets/lod are generated from the supplied characters and existing clips.
+They retain the same source-model rights; CC0 audio licensing does not cover character models.
+
+Horse mesh, rig, and Idle, Walk, Gallop, Death base clips: Quaternius,
+Ultimate Animated Animal Pack (July 2021), CC0 1.0.
+https://quaternius.com/packs/ultimateanimatedanimals.html
+Original file: art/source/horse/Horse.blend. Local additions: Trot, Rear, tack,
+mounted pose, rider/spear fall and baked bay coat. The rider and spear use
+the existing project assets.
+Type 2 uses the user-supplied Tripo horse mesh, rig and PBR textures
+from art/source/horse/tripo_horse.glb. The Quaternius motion clips and locally
+authored Trot and Rear were transferred to this skeleton. Saddle fit, reins,
+rider pose and gallop foreleg adjustment were authored for type 2.
+Type 1 seated trot and light galloping seat are animated locally. Motion references:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1821095/
+https://pubmed.ncbi.nlm.nih.gov/19469236/
+https://pubmed.ncbi.nlm.nih.gov/27622974/
+
+Smithy and fishing workshop: user-supplied Tripo models.
+Smithy source: aa9bc3f5-db9d-41b4-bda0-f35762a900e9.glb.
+Fishing workshop source: 6bed2f10-f187-45f7-91fc-b5e88f3f014c.glb.
+Game files: assets/campaign/smithy.glb, assets/blacksmith_forge_lod1.glb,
+and assets/campaign/fishery.glb. Meshes and textures were reduced for in-game use.
+
+Audio / construction_start.wav: Wood - Chopping 1, ldezem (Freesound #386223),
+and Hand Saw.wav, LiezelDippenaar (Freesound #707527).
+https://freesound.org/people/ldezem/sounds/386223/
+https://freesound.org/people/LiezelDippenaar/sounds/707527/
+Both CC0 1.0. Public high-quality MP3 previews edited into a single mono cue.

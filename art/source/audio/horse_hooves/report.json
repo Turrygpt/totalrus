@@ -1,0 +1,2442 @@
+[
+  {
+    "file": "assets\\audio\\hoof_00.wav",
+    "source_start": 2.41,
+    "source_end": 2.54,
+    "gain_db": 1.8475836267450445,
+    "metrics": {
+      "duration": 0.13,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -17.278504734157057,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_00.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 2.410000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.130000 -af atrim=end=0.130000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_00.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_00.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745189397523500
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.13,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 2.41,
+      "requested_end": 2.54,
+      "requested_segments": null,
+      "requested_duration": 0.13,
+      "output_duration": 0.13,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_00.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_00.wav' -filter_complex '[0:a:0]volume=1.8476dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.112:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_00.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_00.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745190836168000
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_00.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_00.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.13s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "11544:1794745190836168000",
+          "expected": "11544:1794745190836168000",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745190836168000
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_01.wav",
+    "source_start": 2.89,
+    "source_end": 3.02,
+    "gain_db": 4.213826316110822,
+    "metrics": {
+      "duration": 0.13,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -16.378490554127882,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_01.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 2.890000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.130000 -af atrim=end=0.130000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_01.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_01.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745192869233900
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.13,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 2.89,
+      "requested_end": 3.02,
+      "requested_segments": null,
+      "requested_duration": 0.13,
+      "output_duration": 0.13,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_01.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_01.wav' -filter_complex '[0:a:0]volume=4.2138dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.112:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_01.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_01.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745194231643100
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_01.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_01.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.13s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "11544:1794745194231643100",
+          "expected": "11544:1794745194231643100",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745194231643100
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_02.wav",
+    "source_start": 3.37,
+    "source_end": 3.5,
+    "gain_db": 0.6634620612612316,
+    "metrics": {
+      "duration": 0.13,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -18.47049526608079,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_02.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 3.370000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.130000 -af atrim=end=0.130000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_02.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_02.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745196278950300
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.13,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 3.37,
+      "requested_end": 3.5,
+      "requested_segments": null,
+      "requested_duration": 0.13,
+      "output_duration": 0.13,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_02.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_02.wav' -filter_complex '[0:a:0]volume=0.6635dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.112:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_02.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_02.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745197761194700
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_02.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_02.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.13s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "11544:1794745197761194700",
+          "expected": "11544:1794745197761194700",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745197761194700
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_03.wav",
+    "source_start": 3.845,
+    "source_end": 3.975,
+    "gain_db": 2.5315239588369565,
+    "metrics": {
+      "duration": 0.13,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -16.70572404687956,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_03.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 3.845000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.130000 -af atrim=end=0.130000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_03.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_03.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745200063252700
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.13,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 3.845,
+      "requested_end": 3.975,
+      "requested_segments": null,
+      "requested_duration": 0.13,
+      "output_duration": 0.13,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_03.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_03.wav' -filter_complex '[0:a:0]volume=2.5315dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.112:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_03.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_03.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745201471251200
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_03.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_03.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.13s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "11544:1794745201471251200",
+          "expected": "11544:1794745201471251200",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745201471251200
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_04.wav",
+    "source_start": 6.26,
+    "source_end": 6.39,
+    "gain_db": 3.991653332135492,
+    "metrics": {
+      "duration": 0.13,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -3.190012243438441,
+      "rms_dbfs": -17.28074984669021,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_04.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 6.260000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.130000 -af atrim=end=0.130000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_04.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_04.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745203580770600
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.13,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 6.26,
+      "requested_end": 6.39,
+      "requested_segments": null,
+      "requested_duration": 0.13,
+      "output_duration": 0.13,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_04.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_04.wav' -filter_complex '[0:a:0]volume=3.9917dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.112:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_04.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_04.wav",
+        "format": "wav",
+        "duration": 0.13,
+        "start_time": null,
+        "size_bytes": 11544,
+        "bitrate": 710400,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.13,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745204938797900
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_04.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_04.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.13s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "11544:1794745204938797900",
+          "expected": "11544:1794745204938797900",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 11544,
+        "mtime_ns": 1794745204938797900
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_05.wav",
+    "source_start": 7.24,
+    "source_end": 7.38,
+    "gain_db": 2.9719630335067597,
+    "metrics": {
+      "duration": 0.14,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -17.562744286215107,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_05.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 7.240000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.140000 -af atrim=end=0.140000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_05.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_05.wav",
+        "format": "wav",
+        "duration": 0.14,
+        "start_time": null,
+        "size_bytes": 12426,
+        "bitrate": 710057,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.14,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 12426,
+        "mtime_ns": 1794745207085354300
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.14,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 7.24,
+      "requested_end": 7.38,
+      "requested_segments": null,
+      "requested_duration": 0.14,
+      "output_duration": 0.14,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_05.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_05.wav' -filter_complex '[0:a:0]volume=2.972dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.122:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_05.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_05.wav",
+        "format": "wav",
+        "duration": 0.14,
+        "start_time": null,
+        "size_bytes": 12426,
+        "bitrate": 710057,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.14,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 12426,
+        "mtime_ns": 1794745208484118800
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_05.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_05.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.14s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "12426:1794745208484118800",
+          "expected": "12426:1794745208484118800",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 12426,
+        "mtime_ns": 1794745208484118800
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_06.wav",
+    "source_start": 7.7,
+    "source_end": 7.85,
+    "gain_db": 3.024842106105374,
+    "metrics": {
+      "duration": 0.15,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -17.887535666923696,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_06.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 7.700000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.150000 -af atrim=end=0.150000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_06.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_06.wav",
+        "format": "wav",
+        "duration": 0.15,
+        "start_time": null,
+        "size_bytes": 13308,
+        "bitrate": 709760,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.15,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 13308,
+        "mtime_ns": 1794745210585624900
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.15,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 7.7,
+      "requested_end": 7.85,
+      "requested_segments": null,
+      "requested_duration": 0.15,
+      "output_duration": 0.15,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_06.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_06.wav' -filter_complex '[0:a:0]volume=3.0248dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.132:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_06.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_06.wav",
+        "format": "wav",
+        "duration": 0.15,
+        "start_time": null,
+        "size_bytes": 13308,
+        "bitrate": 709760,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.15,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 13308,
+        "mtime_ns": 1794745211988410800
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_06.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_06.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.15s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "13308:1794745211988410800",
+          "expected": "13308:1794745211988410800",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 13308,
+        "mtime_ns": 1794745211988410800
+      }
+    }
+  },
+  {
+    "file": "assets\\audio\\hoof_07.wav",
+    "source_start": 8.65,
+    "source_end": 8.79,
+    "gain_db": 2.592371950984001,
+    "metrics": {
+      "duration": 0.14,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -2.9999878172428636,
+      "rms_dbfs": -18.673893908469307,
+      "clipped_samples": 0
+    },
+    "cut": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_07.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -ss 8.650000 -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\horse_mono.wav' -t 0.140000 -af atrim=end=0.140000,asetpts=PTS-STARTPTS -sn -dn -vn -c:a pcm_s16le -avoid_negative_ts make_zero 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_07.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_07.wav",
+        "format": "wav",
+        "duration": 0.14,
+        "start_time": null,
+        "size_bytes": 12426,
+        "bitrate": 710057,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.14,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 12426,
+        "mtime_ns": 1794745214018667100
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        },
+        {
+          "step": "streams",
+          "property": "stream_inventory",
+          "expected": {
+            "video": false,
+            "audio": true
+          },
+          "measured": {
+            "video": false,
+            "audio": true
+          },
+          "expected_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "measured_count": {
+            "video": 0,
+            "audio": 1
+          },
+          "provenance": "input_premeasurement",
+          "ok": true
+        },
+        {
+          "step": "decode",
+          "property": "decodable",
+          "frames": {
+            "audio": {
+              "head": 2,
+              "tail": 2
+            }
+          },
+          "window": 1.0,
+          "provenance": "measurement",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "picture_content"
+      ],
+      "expected_duration": 0.14,
+      "duration_error_ms": 0.0,
+      "precision": "sample",
+      "reencoded": true,
+      "dropped_non_av_streams": false,
+      "dropped_audio_streams": 0,
+      "requested_start": 8.65,
+      "requested_end": 8.79,
+      "requested_segments": null,
+      "requested_duration": 0.14,
+      "output_duration": 0.14,
+      "duration_delta_seconds": 0.0,
+      "mode": "accurate",
+      "keyframe_snapped": false,
+      "start_snapped": false,
+      "reencode_reason": [
+        "requested"
+      ],
+      "least_exact_precision": "sample",
+      "segment_precision": null,
+      "edit_list": false,
+      "stored_preroll_seconds": null,
+      "av_start_skew_seconds": null,
+      "join_check": null,
+      "segment_end_snap_seconds": null,
+      "declick_ms": null,
+      "notes": [],
+      "nearest_keyframes": null,
+      "lossless_alternative": null,
+      "snap": null
+    },
+    "audio": {
+      "status": "completed",
+      "output": "C:\\Projects\\totalrus\\assets\\audio\\hoof_07.wav",
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\horse_hooves\\contact_07.wav' -filter_complex '[0:a:0]volume=2.5924dB[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.122:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\hoof_07.wav'"
+      ],
+      "probe": {
+        "file": "C:\\Projects\\totalrus\\assets\\audio\\hoof_07.wav",
+        "format": "wav",
+        "duration": 0.14,
+        "start_time": null,
+        "size_bytes": 12426,
+        "bitrate": 710057,
+        "video": null,
+        "audio": {
+          "codec": "pcm_s16le",
+          "channels": 1,
+          "channel_layout": null,
+          "sample_rate": 44100,
+          "bitrate": 705600,
+          "duration": 0.14,
+          "start_time": null,
+          "tagged_duration": null
+        },
+        "subtitle_streams": 0,
+        "data_streams": 0,
+        "stream_counts": {
+          "video": 0,
+          "audio": 1
+        },
+        "chapters": [],
+        "tags": {},
+        "timecode": {
+          "value": null,
+          "drop_frame": null,
+          "source": null
+        },
+        "subtitle_stream_details": [],
+        "audio_streams": [
+          {
+            "index": 0,
+            "codec": "pcm_s16le",
+            "channels": 1,
+            "channel_layout": null,
+            "sample_rate": 44100,
+            "language": null,
+            "title": null
+          }
+        ]
+      },
+      "output_identity": {
+        "size": 12426,
+        "mtime_ns": 1794745215375273100
+      },
+      "verified": true,
+      "verification": [
+        {
+          "step": "probe",
+          "ok": true
+        }
+      ],
+      "unverified": [
+        "mix_balance"
+      ],
+      "audio": {
+        "voice": null,
+        "stereo_widen": null,
+        "effects": false,
+        "effects_volume": null
+      },
+      "video": false,
+      "audio_stream": 0,
+      "dynamics": [],
+      "dropped_non_av_streams": false
+    },
+    "check": {
+      "status": "completed",
+      "output": null,
+      "dry_run": false,
+      "commands": [
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_07.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+        "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\hoof_07.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+      ],
+      "verified": false,
+      "verification": [],
+      "platform": "custom",
+      "checks": [
+        {
+          "check": "duration",
+          "status": "PASS",
+          "value": "0.14s",
+          "expected": "<= 0.25s",
+          "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+          "reason": "",
+          "kind": "judgement"
+        },
+        {
+          "check": "file size",
+          "status": "PASS",
+          "value": "0.0 MB",
+          "expected": "<= 0 MB",
+          "fix": "export.py --crf 24 or lower resolution",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "audio",
+          "status": "PASS",
+          "value": "pcm_s16le 1ch 44100Hz",
+          "expected": "present",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "subtitles",
+          "status": "WARN",
+          "value": "none",
+          "expected": ">= 1 language-tagged subtitle track",
+          "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+          "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+          "kind": "format"
+        },
+        {
+          "check": "silence",
+          "status": "PASS",
+          "value": "0% silent",
+          "expected": "<= 50% below -50 dBFS",
+          "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "dropouts",
+          "status": "PASS",
+          "value": "0",
+          "expected": "no digital-silence gap under 1 s with sound on both sides",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        },
+        {
+          "check": "identity",
+          "status": "PASS",
+          "value": "12426:1794745215375273100",
+          "expected": "12426:1794745215375273100",
+          "fix": "",
+          "reason": "",
+          "kind": "format"
+        }
+      ],
+      "failed": 0,
+      "warnings": 1,
+      "ok": true,
+      "input_identity": {
+        "size": 12426,
+        "mtime_ns": 1794745215375273100
+      }
+    }
+  }
+]

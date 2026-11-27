@@ -1,0 +1,527 @@
+{
+  "version": 1,
+  "fps": 30,
+  "attacks": [
+    {
+      "clip": "spear_attack_01_quick_jab",
+      "label": "Быстрый укол в щит",
+      "duration": 1.0,
+      "contacts": [
+        {
+          "frame": 10,
+          "time": 0.3333333333333333,
+          "zone": "shield_center",
+          "kind": "shield",
+          "position": [
+            -0.30000001192092896,
+            -1.3716239929199219,
+            1.159999966621399
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.35121917724609375,
+            -0.06502801179885864,
+            1.2373318672180176
+          ],
+          "tip_position": [
+            -0.3002864122390747,
+            -1.3716275691986084,
+            1.1598567962646484
+          ],
+          "reach": 1.3098851426594749,
+          "actor_reach": 1.40411328530183
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_02_power_lunge",
+      "label": "Выпад в открытый бок",
+      "duration": 1.5333333333333334,
+      "contacts": [
+        {
+          "frame": 17,
+          "time": 0.5666666666666667,
+          "zone": "flank",
+          "kind": "body",
+          "position": [
+            0.18000000715255737,
+            -1.7898406982421875,
+            1.1200000047683716
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.016766458749771118,
+            -0.4981078803539276,
+            1.2122091054916382
+          ],
+          "tip_position": [
+            0.17915424704551697,
+            -1.7899401187896729,
+            1.119563102722168
+          ],
+          "reach": 1.3098850017934638,
+          "actor_reach": 1.7988835073698448
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_03_high_thrust",
+      "label": "Укол над щитом",
+      "duration": 1.2666666666666666,
+      "contacts": [
+        {
+          "frame": 14,
+          "time": 0.4666666666666667,
+          "zone": "head",
+          "kind": "body",
+          "position": [
+            0.0,
+            -1.7033441066741943,
+            1.5499999523162842
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.32669854164123535,
+            -0.45659640431404114,
+            1.3161661624908447
+          ],
+          "tip_position": [
+            -0.001342523843050003,
+            -1.7038153409957886,
+            1.5493768453598022
+          ],
+          "reach": 1.3098850554736363,
+          "actor_reach": 1.7038158699175403
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_04_low_thrust",
+      "label": "Укол под щитом",
+      "duration": 1.4,
+      "contacts": [
+        {
+          "frame": 16,
+          "time": 0.5333333333333333,
+          "zone": "shin",
+          "kind": "body",
+          "position": [
+            -0.18000000715255737,
+            -1.5342025756835938,
+            0.30000001192092896
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.31973639130592346,
+            -0.45090773701667786,
+            1.0230079889297485
+          ],
+          "tip_position": [
+            -0.18062692880630493,
+            -1.5340855121612549,
+            0.2997007966041565
+          ],
+          "reach": 1.309885061872597,
+          "actor_reach": 1.5446826360236778
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_05_outside_thrust",
+      "label": "Диагональный укол в плечо",
+      "duration": 1.3333333333333333,
+      "contacts": [
+        {
+          "frame": 15,
+          "time": 0.5,
+          "zone": "upper_arm",
+          "kind": "body",
+          "position": [
+            0.3499999940395355,
+            -1.9228918552398682,
+            1.25
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.10663918405771255,
+            -0.7000601291656494,
+            1.1406813859939575
+          ],
+          "tip_position": [
+            0.34816303849220276,
+            -1.923663854598999,
+            1.2490681409835815
+          ],
+          "reach": 1.3098850487191775,
+          "actor_reach": 1.9549169104754305
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_06_inside_thrust",
+      "label": "Удар по краю щита",
+      "duration": 1.3333333333333333,
+      "contacts": [
+        {
+          "frame": 15,
+          "time": 0.5,
+          "zone": "shield_edge",
+          "kind": "shield",
+          "position": [
+            -0.49000000953674316,
+            -1.4485352039337158,
+            1.090000033378601
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.21561051905155182,
+            -0.19120731949806213,
+            1.3342236280441284
+          ],
+          "tip_position": [
+            -0.489023894071579,
+            -1.4488290548324585,
+            1.090437650680542
+          ],
+          "reach": 1.309885083913462,
+          "actor_reach": 1.5291337414038204
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_07_descending_thrust",
+      "label": "Укол сверху в плечо",
+      "duration": 1.5333333333333334,
+      "contacts": [
+        {
+          "frame": 19,
+          "time": 0.6333333333333333,
+          "zone": "shoulder",
+          "kind": "body",
+          "position": [
+            0.2199999988079071,
+            -1.8360002040863037,
+            1.2999999523162842
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.13657298684120178,
+            -0.5776321887969971,
+            1.22820246219635
+          ],
+          "tip_position": [
+            0.21854329109191895,
+            -1.8364578485488892,
+            1.2992597818374634
+          ],
+          "reach": 1.3098850211680957,
+          "actor_reach": 1.8494157454661464
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_08_retreat_counter",
+      "label": "Оттяжка и ответный укол",
+      "duration": 1.6666666666666667,
+      "contacts": [
+        {
+          "frame": 25,
+          "time": 0.8333333333333334,
+          "zone": "counter_arm",
+          "kind": "body",
+          "position": [
+            0.30000001192092896,
+            -1.9480500221252441,
+            1.2300000190734863
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.03906792402267456,
+            -0.7081516981124878,
+            0.9780574440956116
+          ],
+          "tip_position": [
+            0.29861024022102356,
+            -1.9485620260238647,
+            1.2293628454208374
+          ],
+          "reach": 1.3098849857960608,
+          "actor_reach": 1.9713097282839869
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_09_double_jab",
+      "label": "Щит — перевод в колено",
+      "duration": 1.8666666666666667,
+      "contacts": [
+        {
+          "frame": 12,
+          "time": 0.4,
+          "zone": "shield_center",
+          "kind": "shield",
+          "position": [
+            -0.30000001192092896,
+            -1.3716239929199219,
+            1.159999966621399
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.3472479283809662,
+            -0.06751532852649689,
+            1.2734229564666748
+          ],
+          "tip_position": [
+            -0.30027076601982117,
+            -1.3716228008270264,
+            1.1598650217056274
+          ],
+          "reach": 1.309884914074369,
+          "actor_reach": 1.4041052811932255
+        },
+        {
+          "frame": 28,
+          "time": 0.9333333333333333,
+          "zone": "knee",
+          "kind": "body",
+          "position": [
+            -0.1599999964237213,
+            -1.5242869853973389,
+            0.47999998927116394
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.3396298885345459,
+            -0.43491891026496887,
+            1.1848430633544922
+          ],
+          "tip_position": [
+            -0.16078056395053864,
+            -1.5241650342941284,
+            0.4796094596385956
+          ],
+          "reach": 1.309884967310173,
+          "actor_reach": 1.5326217542202234
+        }
+      ],
+      "feints": []
+    },
+    {
+      "clip": "spear_attack_10_high_feint_low",
+      "label": "Финт вверх — укол вниз",
+      "duration": 1.9333333333333333,
+      "contacts": [
+        {
+          "frame": 30,
+          "time": 1.0,
+          "zone": "shin",
+          "kind": "body",
+          "position": [
+            -0.18000000715255737,
+            -1.5342025756835938,
+            0.30000001192092896
+          ],
+          "feint": false,
+          "grip_position": [
+            -0.3231208324432373,
+            -0.4525664746761322,
+            1.0248268842697144
+          ],
+          "tip_position": [
+            -0.18064022064208984,
+            -1.534083366394043,
+            0.29969295859336853
+          ],
+          "reach": 1.3098849552232459,
+          "actor_reach": 1.5446820593120458
+        }
+      ],
+      "feints": [
+        {
+          "frame": 12,
+          "time": 0.4,
+          "zone": "head",
+          "kind": "body",
+          "position": [
+            0.0,
+            -1.7033441066741943,
+            1.5499999523162842
+          ],
+          "feint": true,
+          "grip_position": [
+            -0.3965856730937958,
+            -0.24509528279304504,
+            1.3146313428878784
+          ],
+          "tip_position": [
+            -0.06429047882556915,
+            -1.494192361831665,
+            1.5270816087722778
+          ],
+          "reach": 1.3098850355657579,
+          "actor_reach": 1.4955748325723157
+        }
+      ]
+    }
+  ],
+  "guard": {
+    "ready": {
+      "clip": "spear_ready_loop",
+      "duration": 2.0,
+      "loop": true,
+      "source_clip": "spear_ready_loop",
+      "imported_clip": "spear_ready"
+    },
+    "enter": {
+      "clip": "spear_guard_enter",
+      "duration": 0.8,
+      "loop": false,
+      "source_clip": "spear_guard_enter",
+      "imported_clip": "spear_guard_enter"
+    },
+    "exit": {
+      "clip": "spear_guard_exit",
+      "duration": 0.8,
+      "loop": false,
+      "source_clip": "spear_guard_exit",
+      "imported_clip": "spear_guard_exit"
+    }
+  },
+  "contact_coordinates": {
+    "space": "Blender world at source actor origin; metres",
+    "godot_actor_local_conversion": [
+      "-blender_x",
+      "blender_z",
+      "blender_y"
+    ],
+    "reach": "Euclidean grip_position to tip_position distance",
+    "actor_reach": "Horizontal distance from source actor origin to tip_position"
+  },
+  "shield_profile": {
+    "space": "Godot defender actor-local; +Y up, -Z forward; metres",
+    "center": [
+      -0.309,
+      1.106,
+      -0.367
+    ],
+    "radii": [
+      0.349,
+      0.386,
+      0.115
+    ],
+    "front_threshold": 0.35,
+    "source": "Authored spear-ready shield mesh bounds"
+  },
+  "targeting": {
+    "defender_position": [
+      0,
+      -1.85,
+      0
+    ],
+    "mix": "Shield contacts, exposed body targets, and shield-to-knee combination.",
+    "zones": {
+      "shield_center": {
+        "position": [
+          -0.30000001192092896,
+          -1.3716239929199219,
+          1.159999966621399
+        ],
+        "kind": "shield",
+        "label": "В щит"
+      },
+      "shield_edge": {
+        "position": [
+          -0.49000000953674316,
+          -1.4485352039337158,
+          1.090000033378601
+        ],
+        "kind": "shield",
+        "label": "В край щита"
+      },
+      "flank": {
+        "position": [
+          0.18000000715255737,
+          -1.7898406982421875,
+          1.1200000047683716
+        ],
+        "kind": "body",
+        "label": "В открытый бок"
+      },
+      "head": {
+        "position": [
+          0.0,
+          -1.7033441066741943,
+          1.5499999523162842
+        ],
+        "kind": "body",
+        "label": "Над щитом — голова"
+      },
+      "shin": {
+        "position": [
+          -0.18000000715255737,
+          -1.5342025756835938,
+          0.30000001192092896
+        ],
+        "kind": "body",
+        "label": "Под щитом — голень"
+      },
+      "upper_arm": {
+        "position": [
+          0.3499999940395355,
+          -1.9228918552398682,
+          1.25
+        ],
+        "kind": "body",
+        "label": "В открытое плечо"
+      },
+      "shoulder": {
+        "position": [
+          0.2199999988079071,
+          -1.8360002040863037,
+          1.2999999523162842
+        ],
+        "kind": "body",
+        "label": "Сверху — открытое плечо"
+      },
+      "counter_arm": {
+        "position": [
+          0.30000001192092896,
+          -1.9480500221252441,
+          1.2300000190734863
+        ],
+        "kind": "body",
+        "label": "Ответ в открытую руку"
+      },
+      "knee": {
+        "position": [
+          -0.1599999964237213,
+          -1.5242869853973389,
+          0.47999998927116394
+        ],
+        "kind": "body",
+        "label": "Под щитом — колено"
+      }
+    },
+    "position_space": "Blender world calibration, metres",
+    "forward": "-Y",
+    "up": "Z"
+  },
+  "provenance": {
+    "source_blend": "art/warrior.blend",
+    "library_blend": "art/spearman_attacks_10.blend",
+    "library_sha256": "5f42f4adc50d05f9b5db9f2b822beea857b34e37107c9c77b8e0b6b498b4493b",
+    "author_manifest": "build/spearman_attacks_10/animation_manifest.json",
+    "author_manifest_sha256": "21b298026165d00e42119733a191d83bf35236b1083582da5479672cb04b1b61",
+    "integrator": "tools/integrate_spearman_attacks.py",
+    "integrated_at": "2026-11-15T15:29:59.035141+03:00",
+    "blender_version": "5.3.0"
+  }
+}

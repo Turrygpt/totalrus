@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "output": null,
+  "dry_run": false,
+  "commands": [
+    "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\boot_03.wav' -map 0:a:0 -af silencedetect=noise=-50dB:d=0.5 -f null -",
+    "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -nostdin -i 'C:\\Projects\\totalrus\\assets\\audio\\boot_03.wav' -map 0:a:0 -af apad=pad_dur=2,silencedetect=noise=-80dB:d=0.02 -f null -"
+  ],
+  "verified": false,
+  "verification": [],
+  "platform": "custom",
+  "checks": [
+    {
+      "check": "duration",
+      "status": "PASS",
+      "value": "0.41s",
+      "expected": "<= 0.6s",
+      "fix": "decide with the user: cut.py keeps quality but drops content; fit.py --duration speeds up (audio pitch-preserved, motion faster)",
+      "reason": "",
+      "kind": "judgement"
+    },
+    {
+      "check": "file size",
+      "status": "PASS",
+      "value": "0.0 MB",
+      "expected": "<= 0 MB",
+      "fix": "export.py --crf 24 or lower resolution",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "audio",
+      "status": "PASS",
+      "value": "pcm_s16le 1ch 44100Hz",
+      "expected": "present",
+      "fix": "",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "subtitles",
+      "status": "WARN",
+      "value": "none",
+      "expected": ">= 1 language-tagged subtitle track",
+      "fix": "caption.py video.mp4 --mode mux --srt subs.srt:en -o video_subs.mkv (streams are copied)",
+      "reason": "subtitles are optional, but they are the cheapest accessibility win a delivery has",
+      "kind": "format"
+    },
+    {
+      "check": "silence",
+      "status": "PASS",
+      "value": "0% silent",
+      "expected": "<= 50% below -50 dBFS",
+      "fix": "silence.py to cut the gaps, or audio.py --replace when the track is empty",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "dropouts",
+      "status": "PASS",
+      "value": "0",
+      "expected": "no digital-silence gap under 1 s with sound on both sides",
+      "fix": "",
+      "reason": "",
+      "kind": "format"
+    },
+    {
+      "check": "identity",
+      "status": "PASS",
+      "value": "35884:1794745118492314200",
+      "expected": "35884:1794745118492314200",
+      "fix": "",
+      "reason": "",
+      "kind": "format"
+    }
+  ],
+  "failed": 0,
+  "warnings": 1,
+  "ok": true,
+  "input_identity": {
+    "size": 35884,
+    "mtime_ns": 1794745118492314200
+  }
+}
+

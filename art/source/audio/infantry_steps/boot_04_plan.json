@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "output": "C:\\Projects\\totalrus\\assets\\audio\\boot_04.wav",
+  "dry_run": true,
+  "commands": [
+    "'C:\\Users\\Admin\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-full_build\\bin\\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\\Projects\\totalrus\\art\\source\\audio\\infantry_steps\\Fantozzi\\Fantozzi-footsteps\\flac\\Fantozzi-SandR2.flac' -filter_complex '[0:a:0]volume=-3.9899dB,pan=mono|c0=0.5*c0+0.5*c1[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.322:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\\Projects\\totalrus\\assets\\audio\\boot_04.wav'"
+  ],
+  "verified": false,
+  "verification": [],
+  "audio": {
+    "voice": null,
+    "stereo_widen": null,
+    "effects": false,
+    "effects_volume": null
+  },
+  "video": false,
+  "audio_stream": 0,
+  "dynamics": [],
+  "dropped_non_av_streams": false
+}
+
+[dry-run] $ 'C:\Users\Admin\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin\ffmpeg.EXE' -hide_banner -loglevel error -nostdin -y -i 'C:\Projects\totalrus\art\source\audio\infantry_steps\Fantozzi\Fantozzi-footsteps\flac\Fantozzi-SandR2.flac' -filter_complex '[0:a:0]volume=-3.9899dB,pan=mono|c0=0.5*c0+0.5*c1[main];[main]afade=t=in:st=0:d=0.002,afade=t=out:st=0.322:d=0.018[out]' -map '[out]' -c:a pcm_s16le -shortest 'C:\Projects\totalrus\assets\audio\boot_04.wav'
+[dry-run] would write C:\Projects\totalrus\assets\audio\boot_04.wav (0.000s, audio None 0ch 0Hz)

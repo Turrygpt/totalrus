@@ -1,0 +1,88 @@
+{
+  "source_url": "https://opengameart.org/content/fantozzis-footsteps-grasssand-stone",
+  "download_url": "https://opengameart.org/sites/default/files/Fantozzi-footsteps.7z",
+  "author": "Fantozzi; single-step edits uploaded by qubodup",
+  "license": "CC0 1.0",
+  "accessed": "2026-11-15",
+  "notes": "Sand clips are described by their publisher as suitable for grass. Original FLACs retained. No subjective listening assessment performed.",
+  "clips": [
+    {
+      "source": "Fantozzi-SandL1.flac",
+      "output": "boot_00.wav",
+      "gain_db": -3.370445601684329,
+      "duration_s": 0.44253968253968257,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -3.9996682292812924,
+      "rms_dbfs": -28.57086383952256,
+      "leading_below_minus46_s": 0.0020408163265306124,
+      "trailing_below_minus46_s": 0.024058956916099772,
+      "clipped_samples": 0
+    },
+    {
+      "source": "Fantozzi-SandL2.flac",
+      "output": "boot_01.wav",
+      "gain_db": -3.897879328603882,
+      "duration_s": 0.3195918367346939,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -4.0000883347026726,
+      "rms_dbfs": -27.56092663953112,
+      "leading_below_minus46_s": 0.002653061224489796,
+      "trailing_below_minus46_s": 0.011315192743764172,
+      "clipped_samples": 0
+    },
+    {
+      "source": "Fantozzi-SandL3.flac",
+      "output": "boot_02.wav",
+      "gain_db": -3.9904521508868283,
+      "duration_s": 0.2995238095238095,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -4.0000883347026726,
+      "rms_dbfs": -29.533984176934347,
+      "leading_below_minus46_s": 0.0020861678004535146,
+      "trailing_below_minus46_s": 0.0028117913832199546,
+      "clipped_samples": 0
+    },
+    {
+      "source": "Fantozzi-SandR1.flac",
+      "output": "boot_03.wav",
+      "gain_db": -3.9899214069657276,
+      "duration_s": 0.4057596371882086,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -4.0000883347026726,
+      "rms_dbfs": -29.632610089899643,
+      "leading_below_minus46_s": 0.005464852607709751,
+      "trailing_below_minus46_s": 0.011383219954648527,
+      "clipped_samples": 0
+    },
+    {
+      "source": "Fantozzi-SandR2.flac",
+      "output": "boot_04.wav",
+      "gain_db": -3.9899214069657276,
+      "duration_s": 0.3401814058956916,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -4.0000883347026726,
+      "rms_dbfs": -29.8289039743109,
+      "leading_below_minus46_s": 0.0024489795918367346,
+      "trailing_below_minus46_s": 0.023514739229024945,
+      "clipped_samples": 0
+    },
+    {
+      "source": "Fantozzi-SandR3.flac",
+      "output": "boot_05.wav",
+      "gain_db": -3.8793532899883467,
+      "duration_s": 0.32945578231292516,
+      "sample_rate": 44100,
+      "channels": 1,
+      "peak_dbfs": -4.0000883347026726,
+      "rms_dbfs": -25.87782366235956,
+      "leading_below_minus46_s": 0.003061224489795918,
+      "trailing_below_minus46_s": 0.008027210884353741,
+      "clipped_samples": 0
+    }
+  ]
+}

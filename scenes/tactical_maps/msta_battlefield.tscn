@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/battlefield.tscn" id="1"]
+[ext_resource type="Resource" path="res://scenes/tactical_maps/msta_terrace.tres" id="2"]
+
+[node name="MstaBattlefield" instance=ExtResource("1")]
+standalone_layout = ExtResource("2")

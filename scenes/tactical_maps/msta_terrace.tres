@@ -1,0 +1,18 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/tactical_map_layout.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+title = "Терраса над Мстой"
+half_size = Vector2(420, 645)
+seed_value = 882
+profile = 3
+water_side = 1
+opening_half_width = 132.0
+road = Vector4(242, 24, 0.009, 0.45)
+shoreline_phase = 1.72
+landmark_depth = -42.0
+yards = PackedVector2Array(271, -45)
+shore_approach = PackedVector2Array(233.55, -90, 304, -74, 357, -45, 403, -26, 442, -16)
+hills = PackedVector3Array(-255, -178, 0.9, -220, 128, 0.78, 203, -176, 0.72, 315, 94, 0.86)

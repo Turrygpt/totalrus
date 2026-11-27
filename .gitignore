@@ -1,0 +1,17 @@
+/.godot/
+/build/
+/export_templates/
+/feature_profiles/
+/script_templates/
+/text_editor_themes/
+*.log
+*.blend[0-9]
+__pycache__/
+__MACOSX/
+.DS_Store
+Thumbs.db
+/native/*.pdb
+/native/*.lib
+/native/*.exp
+/native/*.obj
+/native/*.[Tt][Mm][Pp]

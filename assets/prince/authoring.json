@@ -1,0 +1,10 @@
+{
+  "max_transfer_distance_m": 0.06358874514698983,
+  "mean_transfer_distance_m": 0.00985010071669541,
+  "source_sha256": "81a2a834a345e6e0c7bf5bc72bf1d4e923c4c68fdcb726a419d687e6743d245b",
+  "body_vertices": 8933,
+  "cape_vertices": 391,
+  "foot_actions": 74,
+  "mounted_actions": 12,
+  "mounted_body_vertices": 8933
+}

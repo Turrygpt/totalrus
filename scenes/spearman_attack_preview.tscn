@@ -1,0 +1,149 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/spearman_attack_preview.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/warrior.glb" id="2"]
+
+[sub_resource type="Environment" id="Environment_stage"]
+background_mode = 1
+background_color = Color(0.19, 0.215, 0.24, 1)
+ambient_light_source = 3
+ambient_light_color = Color(0.8, 0.88, 1, 1)
+ambient_light_energy = 0.65
+
+[sub_resource type="StandardMaterial3D" id="Material_floor"]
+albedo_color = Color(0.114, 0.149, 0.161, 1)
+roughness = 0.91
+
+[sub_resource type="PlaneMesh" id="Mesh_floor"]
+material = SubResource("Material_floor")
+size = Vector2(40, 40)
+
+[sub_resource type="StyleBoxFlat" id="Style_controls"]
+content_margin_left = 15.0
+content_margin_top = 11.0
+content_margin_right = 15.0
+content_margin_bottom = 12.0
+bg_color = Color(0.063, 0.084, 0.099, 0.96)
+border_width_top = 1
+border_color = Color(0.25, 0.32, 0.35, 1)
+corner_radius_top_left = 9
+corner_radius_top_right = 9
+corner_radius_bottom_left = 9
+corner_radius_bottom_right = 9
+
+[node name="SpearmanAttackPreview" type="Node3D"]
+script = ExtResource("1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_stage")
+
+[node name="KeyLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-43, 132, 0)
+light_color = Color(1, 0.89, 0.75, 1)
+light_energy = 1.5
+shadow_enabled = true
+shadow_opacity = 0.7
+
+[node name="FillLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-30, -55, 0)
+light_color = Color(0.63, 0.76, 1, 1)
+light_energy = 0.75
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("Mesh_floor")
+
+[node name="Warrior" parent="." instance=ExtResource("2")]
+rotation = Vector3(0, 3.1415927, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+current = true
+fov = 37.0
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Title" type="Label" parent="HUD"]
+offset_left = 24.0
+offset_top = 18.0
+theme_override_colors/font_color = Color(0.94, 0.86, 0.69, 1)
+theme_override_font_sizes/font_size = 27
+text = "Выпад копейщика"
+
+[node name="Controls" type="PanelContainer" parent="HUD"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -126.0
+offset_right = -20.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("Style_controls")
+
+[node name="Rows" type="VBoxContainer" parent="HUD/Controls"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="TimelineRow" type="HBoxContainer" parent="HUD/Controls/Rows"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Timeline" type="HSlider" parent="HUD/Controls/Rows/TimelineRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+focus_mode = 0
+step = 0.001
+tooltip_text = "Перемотка"
+
+[node name="Time" type="Label" parent="HUD/Controls/Rows/TimelineRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(104, 0)
+layout_mode = 2
+horizontal_alignment = 2
+
+[node name="Buttons" type="HBoxContainer" parent="HUD/Controls/Rows"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Play" type="Button" parent="HUD/Controls/Rows/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(72, 0)
+layout_mode = 2
+focus_mode = 0
+text = "Пауза"
+
+[node name="Replay" type="Button" parent="HUD/Controls/Rows/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+text = "С начала"
+
+[node name="Loop" type="CheckButton" parent="HUD/Controls/Rows/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+button_pressed = true
+text = "Повтор"
+
+[node name="Spacer" type="Control" parent="HUD/Controls/Rows/Buttons"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Speed" type="OptionButton" parent="HUD/Controls/Rows/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+tooltip_text = "Скорость воспроизведения"
+
+[node name="View" type="OptionButton" parent="HUD/Controls/Rows/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+tooltip_text = "Ракурс"
+
+[node name="Help" type="Label" parent="HUD/Controls/Rows"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.70, 0.76, 0.78, 1)
+theme_override_font_sizes/font_size = 14
+text = "Пробел — пауза   ·   ← → — кадр   ·   ПКМ — вращение   ·   Колесо — зум"

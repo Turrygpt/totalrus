@@ -1,0 +1,8 @@
+[configuration]
+entry_symbol = "crowd_library_init"
+compatibility_minimum = "4.4"
+reloadable = false
+
+[libraries]
+windows.debug.x86_64 = "res://native/crowd_native_large_field.dll"
+windows.release.x86_64 = "res://native/crowd_native_large_field.dll"

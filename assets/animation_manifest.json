@@ -1,0 +1,405 @@
+{
+  "idle_spear": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "walk_spear": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "run_spear": {
+    "duration": 0.72,
+    "loop": true
+  },
+  "idle_sword": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "walk_sword": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "run_sword": {
+    "duration": 0.72,
+    "loop": true
+  },
+  "guard_front": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "guard_rear": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "guard_sword": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "guard_enter": {
+    "duration": 0.55,
+    "loop": false
+  },
+  "guard_exit": {
+    "duration": 0.55,
+    "loop": false
+  },
+  "throw_spear": {
+    "duration": 1.35,
+    "loop": false
+  },
+  "draw_sword": {
+    "duration": 1.35,
+    "loop": false
+  },
+  "advance_spear": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "advance_sword": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "combat_spear": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "combat_sword": {
+    "duration": 2.0,
+    "loop": true
+  },
+  "attack_spear": {
+    "duration": 1.1,
+    "loop": false
+  },
+  "attack_sword": {
+    "duration": 0.92,
+    "loop": false
+  },
+  "attack_sword_alt": {
+    "duration": 1.02,
+    "loop": false
+  },
+  "hit": {
+    "duration": 0.48,
+    "loop": false
+  },
+  "block": {
+    "duration": 0.4,
+    "loop": false
+  },
+  "death_back": {
+    "duration": 1.65,
+    "loop": false
+  },
+  "death_side": {
+    "duration": 1.8,
+    "loop": false
+  },
+  "backstep_spear": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "strafe_left_spear": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "strafe_right_spear": {
+    "duration": 1.2,
+    "loop": true
+  },
+  "victory_spear": {
+    "duration": 2.8,
+    "loop": false
+  },
+  "victory_sword": {
+    "duration": 2.8,
+    "loop": false
+  },
+  "pack_idle_sword": {
+    "duration": 2.433333333333333,
+    "loop": true,
+    "source": "sword and shield idle.fbx"
+  },
+  "pack_guard_sword": {
+    "duration": 1.4,
+    "loop": true,
+    "source": "sword and shield block idle.fbx"
+  },
+  "pack_run_sword": {
+    "duration": 0.7,
+    "loop": true,
+    "source": "sword and shield run.fbx"
+  },
+  "pack_backstep_sword": {
+    "duration": 0.5333333333333333,
+    "loop": true,
+    "source": "sword and shield run (2).fbx"
+  },
+  "pack_strafe_left_sword": {
+    "duration": 0.6666666666666666,
+    "loop": true,
+    "source": "sword and shield strafe.fbx"
+  },
+  "pack_strafe_right_sword": {
+    "duration": 0.7,
+    "loop": true,
+    "source": "sword and shield strafe (2).fbx"
+  },
+  "pack_attack_1": {
+    "duration": 2.3333333333333335,
+    "loop": false,
+    "source": "sword and shield attack.fbx"
+  },
+  "pack_attack_2": {
+    "duration": 1.3,
+    "loop": false,
+    "source": "sword and shield attack (2).fbx"
+  },
+  "pack_attack_3": {
+    "duration": 1.7333333333333334,
+    "loop": false,
+    "source": "sword and shield attack (3).fbx"
+  },
+  "pack_attack_4": {
+    "duration": 1.0,
+    "loop": false,
+    "source": "sword and shield attack (4).fbx"
+  },
+  "pack_block_enter": {
+    "duration": 0.5,
+    "loop": false,
+    "source": "sword and shield block.fbx"
+  },
+  "pack_block_exit": {
+    "duration": 0.6333333333333333,
+    "loop": false,
+    "source": "sword and shield block (2).fbx"
+  },
+  "pack_death": {
+    "duration": 2.3,
+    "loop": false,
+    "source": "sword and shield death.fbx"
+  },
+  "pack_turn_left": {
+    "duration": 0.9333333333333333,
+    "loop": false,
+    "source": "sword and shield turn.fbx"
+  },
+  "pack_turn_right": {
+    "duration": 0.9333333333333333,
+    "loop": false,
+    "source": "sword and shield turn (2).fbx"
+  },
+  "pack_draw_sword": {
+    "duration": 0.5,
+    "loop": false,
+    "source": "draw sword 1.fbx"
+  },
+  "pack_sheath_sword": {
+    "duration": 1.2333333333333334,
+    "loop": false,
+    "source": "sheath sword 1.fbx"
+  },
+  "motion_walk_spear": {
+    "duration": 1.2,
+    "loop": true,
+    "source": "walk_spear",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_walk_sword": {
+    "duration": 1.2,
+    "loop": true,
+    "source": "walk_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_advance_spear": {
+    "duration": 1.2,
+    "loop": true,
+    "source": "walk_spear",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_advance_sword": {
+    "duration": 1.2,
+    "loop": true,
+    "source": "walk_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_run_spear": {
+    "duration": 0.7,
+    "loop": true,
+    "source": "pack_run_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_charge_spear": {
+    "duration": 0.7,
+    "loop": true,
+    "source": "pack_run_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_charge_sword": {
+    "duration": 0.7,
+    "loop": true,
+    "source": "pack_run_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_idle_spear": {
+    "duration": 2.433333333333333,
+    "loop": true,
+    "source": "pack_idle_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_combat_spear": {
+    "duration": 2.433333333333333,
+    "loop": true,
+    "source": "pack_idle_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_backstep_spear": {
+    "duration": 0.5333333333333333,
+    "loop": true,
+    "source": "pack_backstep_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_strafe_left_spear": {
+    "duration": 0.6666666666666666,
+    "loop": true,
+    "source": "pack_strafe_left_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_strafe_right_spear": {
+    "duration": 0.7,
+    "loop": true,
+    "source": "pack_strafe_right_sword",
+    "layer": "sword pack body / weapon-specific hands / stabilized gaze"
+  },
+  "motion_attack_spear": {
+    "duration": 1.1,
+    "loop": false,
+    "source": "pack_attack_2",
+    "layer": "sword-pack weight shift, spear retraction/thrust, preserved shield grip"
+  },
+  "spear_pack_attack_1": {
+    "duration": 1.4,
+    "loop": false,
+    "source": "Armature|warriors strikes with a spear in his right hand, his left hand |Base Layer",
+    "impact": 0.6333333333333333
+  },
+  "spear_pack_attack_2": {
+    "duration": 1.4,
+    "loop": false,
+    "source": "Armature|warriors strikes with a spear in his right hand.001|Base Layer",
+    "impact": 0.6666666666666666
+  },
+  "spear_attack_01_quick_jab": {
+    "duration": 1.0,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Быстрый укол в щит",
+    "impact_frames": [
+      10
+    ]
+  },
+  "spear_attack_02_power_lunge": {
+    "duration": 1.5333333333333334,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Выпад в открытый бок",
+    "impact_frames": [
+      17
+    ]
+  },
+  "spear_attack_03_high_thrust": {
+    "duration": 1.2666666666666666,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Укол над щитом",
+    "impact_frames": [
+      14
+    ]
+  },
+  "spear_attack_04_low_thrust": {
+    "duration": 1.4,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Укол под щитом",
+    "impact_frames": [
+      16
+    ]
+  },
+  "spear_attack_05_outside_thrust": {
+    "duration": 1.3333333333333333,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Диагональный укол в плечо",
+    "impact_frames": [
+      15
+    ]
+  },
+  "spear_attack_06_inside_thrust": {
+    "duration": 1.3333333333333333,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Удар по краю щита",
+    "impact_frames": [
+      15
+    ]
+  },
+  "spear_attack_07_descending_thrust": {
+    "duration": 1.5333333333333334,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Укол сверху в плечо",
+    "impact_frames": [
+      19
+    ]
+  },
+  "spear_attack_08_retreat_counter": {
+    "duration": 1.6666666666666667,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Оттяжка и ответный укол",
+    "impact_frames": [
+      25
+    ]
+  },
+  "spear_attack_09_double_jab": {
+    "duration": 1.8666666666666667,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Щит — перевод в колено",
+    "impact_frames": [
+      12,
+      28
+    ]
+  },
+  "spear_attack_10_high_feint_low": {
+    "duration": 1.9333333333333333,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Финт вверх — укол вниз",
+    "impact_frames": [
+      30
+    ]
+  },
+  "spear_guard_enter": {
+    "duration": 0.8,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Вход в боевую стойку",
+    "impact_frames": []
+  },
+  "spear_guard_exit": {
+    "duration": 0.8,
+    "loop": false,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Выход из боевой стойки",
+    "impact_frames": []
+  },
+  "spear_ready_loop": {
+    "duration": 2.0,
+    "loop": true,
+    "source": "art/spearman_attacks_10.blend",
+    "label": "Боевая стойка",
+    "impact_frames": []
+  }
+}

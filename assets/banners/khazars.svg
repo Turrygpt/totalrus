@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432" height="600" viewBox="0 0 216 300">
+  <defs>
+    <linearGradient id="cloth"><stop stop-color="#626262"/><stop offset=".49" stop-color="#8b8b8b"/><stop offset="1" stop-color="#666666"/></linearGradient>
+    <pattern id="weave" width="3" height="3" patternUnits="userSpaceOnUse"><path d="M0 .5h3M.5 0v3" stroke="#dadada" opacity=".11" stroke-width=".45"/></pattern>
+  </defs>
+  <path fill="url(#cloth)" stroke="#bc8b4e" stroke-width="4" d="M9 7H207V239L108 290 9 239Z"/>
+  <path fill="url(#weave)" d="M10 9H206V238L108 288 10 238Z"/>
+  <path fill="none" stroke="#ceae6a" stroke-width="2" d="M19 17H197V233L108 279 19 233Z"/>
+  <path fill="none" stroke="#877947" stroke-width="2" d="M25 24H191V229L108 272 25 229Z"/>
+  <path fill="none" stroke="#e3be71" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" d="M47 114c24 0 46-28 61-30 15 2 37 30 61 30-13-1-21 8-22 17H69c-1-9-9-18-22-17zm61-30v108m-29-18 29-25 29 25m-40 21h22"/>
+  <path fill="none" stroke="#e3be71" stroke-width="2.5" d="M56 207h25l27 19 27-19h25m-83 19 31 22 31-22"/>
+  <path fill="#e3be71" d="M108 44l7 9-7 9-7-9zM41 66l5 6-5 6-5-6zm134 0 5 6-5 6-5-6z"/>
+</svg>

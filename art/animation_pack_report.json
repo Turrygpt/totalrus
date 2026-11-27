@@ -1,0 +1,4760 @@
+[
+  {
+    "file": "draw sword 1.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          16.0
+        ],
+        "seconds": 0.5
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          -0.02057875692844391,
+          50.86232376098633,
+          -0.28687784075737
+        ],
+        "mixamorig:LeftHand": [
+          15.566161155700684,
+          51.03116226196289,
+          0.5046775341033936
+        ],
+        "mixamorig:RightHand": [
+          -15.443987846374512,
+          50.087066650390625,
+          0.37506818771362305
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -0.46216046810150146,
+          50.10411071777344,
+          -0.5095577836036682
+        ],
+        "mixamorig:LeftHand": [
+          18.29348373413086,
+          48.97036361694336,
+          5.189675331115723
+        ],
+        "mixamorig:RightHand": [
+          -4.083405494689941,
+          69.93810272216797,
+          10.829806327819824
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.2656056880950928,
+          50.08788299560547,
+          -4.113378524780273
+        ],
+        "mixamorig:LeftHand": [
+          11.289834976196289,
+          54.88789749145508,
+          23.302738189697266
+        ],
+        "mixamorig:RightHand": [
+          7.737697124481201,
+          61.16354751586914,
+          8.789154052734375
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sheath sword 1.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          38.0
+        ],
+        "seconds": 1.2333333333333334
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.23618155717849731,
+          43.171180725097656,
+          -0.1383310854434967
+        ],
+        "mixamorig:LeftHand": [
+          -5.974546432495117,
+          56.53913116455078,
+          22.95132827758789
+        ],
+        "mixamorig:RightHand": [
+          -20.419933319091797,
+          53.015567779541016,
+          -11.412050247192383
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -0.9080252051353455,
+          47.301612854003906,
+          -7.489378929138184
+        ],
+        "mixamorig:LeftHand": [
+          10.355663299560547,
+          55.08411407470703,
+          19.7020263671875
+        ],
+        "mixamorig:RightHand": [
+          -21.834945678710938,
+          73.60693359375,
+          11.0184326171875
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.468998908996582,
+          50.05165100097656,
+          -4.127974987030029
+        ],
+        "mixamorig:LeftHand": [
+          11.652297973632812,
+          54.74989700317383,
+          23.336788177490234
+        ],
+        "mixamorig:RightHand": [
+          8.223010063171387,
+          61.282371520996094,
+          9.005735397338867
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield attack (2).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          40.0
+        ],
+        "seconds": 1.3
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.08421185612678528,
+          45.64061737060547,
+          -0.21097910404205322
+        ],
+        "mixamorig:LeftHand": [
+          16.409622192382812,
+          45.01892852783203,
+          8.33427906036377
+        ],
+        "mixamorig:RightHand": [
+          -15.532968521118164,
+          46.079437255859375,
+          27.974672317504883
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          41.62693405151367,
+          42.1783561706543,
+          96.52883911132812
+        ],
+        "mixamorig:LeftHand": [
+          60.93618392944336,
+          48.88398742675781,
+          88.63374328613281
+        ],
+        "mixamorig:RightHand": [
+          5.542385101318359,
+          58.93325424194336,
+          111.76152038574219
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          55.40542221069336,
+          43.21043395996094,
+          133.56417846679688
+        ],
+        "mixamorig:LeftHand": [
+          43.48262405395508,
+          57.86349868774414,
+          155.500732421875
+        ],
+        "mixamorig:RightHand": [
+          35.46687316894531,
+          54.484527587890625,
+          123.50543975830078
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield attack (3).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          53.0
+        ],
+        "seconds": 1.7333333333333334
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.08635163307189941,
+          45.611671447753906,
+          -0.2177218198776245
+        ],
+        "mixamorig:LeftHand": [
+          16.554922103881836,
+          44.9901123046875,
+          8.054744720458984
+        ],
+        "mixamorig:RightHand": [
+          -15.055828094482422,
+          46.050601959228516,
+          28.22493553161621
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -8.839601516723633,
+          34.07203674316406,
+          75.62092590332031
+        ],
+        "mixamorig:LeftHand": [
+          -3.852550506591797,
+          48.462059020996094,
+          62.43818664550781
+        ],
+        "mixamorig:RightHand": [
+          -44.567665100097656,
+          38.93218994140625,
+          106.1131591796875
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.769424319267273,
+          41.05521011352539,
+          118.80619049072266
+        ],
+        "mixamorig:LeftHand": [
+          4.775045394897461,
+          53.014610290527344,
+          146.2775115966797
+        ],
+        "mixamorig:RightHand": [
+          -21.473392486572266,
+          49.347782135009766,
+          111.38107299804688
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield attack (4).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          31.0
+        ],
+        "seconds": 1.0
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.23673981428146362,
+          43.168949127197266,
+          -0.1360740065574646
+        ],
+        "mixamorig:LeftHand": [
+          -5.704209327697754,
+          56.17292404174805,
+          23.230989456176758
+        ],
+        "mixamorig:RightHand": [
+          -20.32313346862793,
+          53.5106201171875,
+          -11.136500358581543
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.2159506231546402,
+          42.318702697753906,
+          1.2292815446853638
+        ],
+        "mixamorig:LeftHand": [
+          21.360692977905273,
+          60.79753494262695,
+          24.804826736450195
+        ],
+        "mixamorig:RightHand": [
+          -5.674350261688232,
+          79.26508331298828,
+          37.717506408691406
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.7925633192062378,
+          43.38431167602539,
+          0.6521545648574829
+        ],
+        "mixamorig:LeftHand": [
+          -4.003547668457031,
+          57.12554168701172,
+          24.79839324951172
+        ],
+        "mixamorig:RightHand": [
+          -19.157169342041016,
+          51.0354118347168,
+          -9.173049926757812
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield attack.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          71.0
+        ],
+        "seconds": 2.3333333333333335
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.08872190117835999,
+          45.615211486816406,
+          -0.21559655666351318
+        ],
+        "mixamorig:LeftHand": [
+          15.25486946105957,
+          43.58768844604492,
+          9.393113136291504
+        ],
+        "mixamorig:RightHand": [
+          -15.525032997131348,
+          46.054107666015625,
+          27.971065521240234
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.089767336845398,
+          53.39461898803711,
+          148.014892578125
+        ],
+        "mixamorig:LeftHand": [
+          -7.852783203125,
+          65.18748474121094,
+          175.93136596679688
+        ],
+        "mixamorig:RightHand": [
+          -12.699862480163574,
+          68.12255859375,
+          180.66221618652344
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.2373359501361847,
+          43.171180725097656,
+          180.19033813476562
+        ],
+        "mixamorig:LeftHand": [
+          -6.167610168457031,
+          56.53911590576172,
+          203.22689819335938
+        ],
+        "mixamorig:RightHand": [
+          -20.323108673095703,
+          53.015560150146484,
+          168.7430877685547
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield block (2).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          20.0
+        ],
+        "seconds": 0.6333333333333333
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.27839308977127075,
+          37.071231842041016,
+          0.04576501250267029
+        ],
+        "mixamorig:LeftHand": [
+          -15.987802505493164,
+          61.45079803466797,
+          31.68065071105957
+        ],
+        "mixamorig:RightHand": [
+          -12.875301361083984,
+          45.035438537597656,
+          -20.609464645385742
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -1.311663031578064,
+          42.41155242919922,
+          -10.646135330200195
+        ],
+        "mixamorig:LeftHand": [
+          -7.689330577850342,
+          57.73725891113281,
+          14.330924987792969
+        ],
+        "mixamorig:RightHand": [
+          -18.6951904296875,
+          53.8493537902832,
+          -24.907733917236328
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.008039593696594238,
+          43.34487533569336,
+          -12.980151176452637
+        ],
+        "mixamorig:LeftHand": [
+          -7.819809913635254,
+          56.82583236694336,
+          9.499405860900879
+        ],
+        "mixamorig:RightHand": [
+          -19.611221313476562,
+          53.19476318359375,
+          -25.720666885375977
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield block idle.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          43.0
+        ],
+        "seconds": 1.4
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.2780103087425232,
+          37.0712890625,
+          0.04785621166229248
+        ],
+        "mixamorig:LeftHand": [
+          -16.237945556640625,
+          61.4303092956543,
+          31.564626693725586
+        ],
+        "mixamorig:RightHand": [
+          -12.707269668579102,
+          45.03526306152344,
+          -20.70730209350586
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.5313625335693359,
+          37.151206970214844,
+          -0.0006480429437942803
+        ],
+        "mixamorig:LeftHand": [
+          -15.882194519042969,
+          61.28387451171875,
+          31.60015106201172
+        ],
+        "mixamorig:RightHand": [
+          -12.523709297180176,
+          45.2127571105957,
+          -20.571407318115234
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.2780129909515381,
+          37.07126998901367,
+          0.04787611961364746
+        ],
+        "mixamorig:LeftHand": [
+          -16.227066040039062,
+          61.456764221191406,
+          31.560911178588867
+        ],
+        "mixamorig:RightHand": [
+          -12.720026969909668,
+          45.03707504272461,
+          -20.707544326782227
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield block.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          16.0
+        ],
+        "seconds": 0.5
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.23963868618011475,
+          43.171180725097656,
+          -0.13224902749061584
+        ],
+        "mixamorig:LeftHand": [
+          -6.559409141540527,
+          56.53757095336914,
+          22.792280197143555
+        ],
+        "mixamorig:RightHand": [
+          -20.12162971496582,
+          53.0199089050293,
+          -11.93044662475586
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.09635072946548462,
+          41.352073669433594,
+          5.263696193695068
+        ],
+        "mixamorig:LeftHand": [
+          -9.937894821166992,
+          61.529422760009766,
+          32.106563568115234
+        ],
+        "mixamorig:RightHand": [
+          -20.080528259277344,
+          49.929962158203125,
+          -11.114296913146973
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -1.262890100479126,
+          37.520931243896484,
+          12.58738899230957
+        ],
+        "mixamorig:LeftHand": [
+          -17.934417724609375,
+          62.885868072509766,
+          43.33894729614258
+        ],
+        "mixamorig:RightHand": [
+          -14.753594398498535,
+          46.08147048950195,
+          -8.874460220336914
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield death.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          70.0
+        ],
+        "seconds": 2.3
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.2362043261528015,
+          43.17127227783203,
+          -0.13825726509094238
+        ],
+        "mixamorig:LeftHand": [
+          -6.000981330871582,
+          56.447418212890625,
+          22.825756072998047
+        ],
+        "mixamorig:RightHand": [
+          -20.419891357421875,
+          53.015655517578125,
+          -11.411957740783691
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -4.2800374031066895,
+          41.09991455078125,
+          -23.92879867553711
+        ],
+        "mixamorig:LeftHand": [
+          10.052457809448242,
+          54.668113708496094,
+          -5.376866340637207
+        ],
+        "mixamorig:RightHand": [
+          -34.63731002807617,
+          80.29722595214844,
+          -24.760581970214844
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.9327211380004883,
+          6.441375732421875,
+          -61.21675491333008
+        ],
+        "mixamorig:LeftHand": [
+          25.677249908447266,
+          2.363128423690796,
+          -78.59083557128906
+        ],
+        "mixamorig:RightHand": [
+          -43.399505615234375,
+          2.3153798580169678,
+          -90.60867309570312
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield idle.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          74.0
+        ],
+        "seconds": 2.433333333333333
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.2361806333065033,
+          43.17117691040039,
+          -0.1383315920829773
+        ],
+        "mixamorig:LeftHand": [
+          -5.979372978210449,
+          56.53977966308594,
+          22.950336456298828
+        ],
+        "mixamorig:RightHand": [
+          -20.416810989379883,
+          53.01436996459961,
+          -11.416186332702637
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.478586345911026,
+          43.306514739990234,
+          -0.15464849770069122
+        ],
+        "mixamorig:LeftHand": [
+          -5.867564678192139,
+          56.496334075927734,
+          22.88913345336914
+        ],
+        "mixamorig:RightHand": [
+          -20.028156280517578,
+          52.59883117675781,
+          -11.415647506713867
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.2619841396808624,
+          43.22476577758789,
+          -0.17718777060508728
+        ],
+        "mixamorig:LeftHand": [
+          -5.85621452331543,
+          56.52254104614258,
+          22.92073631286621
+        ],
+        "mixamorig:RightHand": [
+          -20.499313354492188,
+          53.059085845947266,
+          -11.175426483154297
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield run (2).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          17.0
+        ],
+        "seconds": 0.5333333333333333
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.09524039924144745,
+          46.54619598388672,
+          -0.27647140622138977
+        ],
+        "mixamorig:LeftHand": [
+          -3.6231679916381836,
+          62.84221649169922,
+          26.545085906982422
+        ],
+        "mixamorig:RightHand": [
+          -23.951595306396484,
+          53.757179260253906,
+          0.7177591323852539
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.098433494567871,
+          46.575843811035156,
+          -57.32333755493164
+        ],
+        "mixamorig:LeftHand": [
+          -6.625426769256592,
+          61.38063430786133,
+          -33.40440368652344
+        ],
+        "mixamorig:RightHand": [
+          -22.586530685424805,
+          56.95969772338867,
+          -56.965946197509766
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.09605282545089722,
+          46.54619598388672,
+          -116.36421203613281
+        ],
+        "mixamorig:LeftHand": [
+          -3.620049476623535,
+          62.84088134765625,
+          -89.54200744628906
+        ],
+        "mixamorig:RightHand": [
+          -23.950878143310547,
+          53.760440826416016,
+          -115.36906433105469
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield run.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          22.0
+        ],
+        "seconds": 0.7
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.08924740552902222,
+          45.6152229309082,
+          -0.215529203414917
+        ],
+        "mixamorig:LeftHand": [
+          16.417245864868164,
+          44.99363327026367,
+          8.3302640914917
+        ],
+        "mixamorig:RightHand": [
+          -15.525360107421875,
+          46.054134368896484,
+          27.970664978027344
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.2429792881011963,
+          47.128395080566406,
+          67.109619140625
+        ],
+        "mixamorig:LeftHand": [
+          9.871053695678711,
+          46.30647277832031,
+          102.1175765991211
+        ],
+        "mixamorig:RightHand": [
+          -17.69839096069336,
+          50.369014739990234,
+          89.43050384521484
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.09187063574790955,
+          45.61521911621094,
+          143.65786743164062
+        ],
+        "mixamorig:LeftHand": [
+          16.41986656188965,
+          44.993648529052734,
+          152.20364379882812
+        ],
+        "mixamorig:RightHand": [
+          -15.522726058959961,
+          46.05413055419922,
+          171.84402465820312
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield strafe (2).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          22.0
+        ],
+        "seconds": 0.7
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.26152268052101135,
+          49.224098205566406,
+          -0.07392806559801102
+        ],
+        "mixamorig:LeftHand": [
+          -17.66695785522461,
+          56.64179992675781,
+          19.094560623168945
+        ],
+        "mixamorig:RightHand": [
+          -14.93994140625,
+          54.500274658203125,
+          -11.332256317138672
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -59.54624938964844,
+          48.454200744628906,
+          -0.00513808336108923
+        ],
+        "mixamorig:LeftHand": [
+          -82.78108215332031,
+          57.11282730102539,
+          17.73805046081543
+        ],
+        "mixamorig:RightHand": [
+          -68.70199584960938,
+          56.619083404541016,
+          -10.510817527770996
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -117.69847106933594,
+          49.224098205566406,
+          -0.07257883995771408
+        ],
+        "mixamorig:LeftHand": [
+          -135.6280059814453,
+          56.64180374145508,
+          19.094926834106445
+        ],
+        "mixamorig:RightHand": [
+          -132.89930725097656,
+          54.500282287597656,
+          -11.331735610961914
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield strafe.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          21.0
+        ],
+        "seconds": 0.6666666666666666
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.21428251266479492,
+          49.224098205566406,
+          -0.16716454923152924
+        ],
+        "mixamorig:LeftHand": [
+          -9.153263092041016,
+          56.64179611206055,
+          24.350387573242188
+        ],
+        "mixamorig:RightHand": [
+          -18.112119674682617,
+          54.500282287597656,
+          -4.855201244354248
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          56.52986145019531,
+          47.02849578857422,
+          1.3606072664260864
+        ],
+        "mixamorig:LeftHand": [
+          44.05235290527344,
+          51.98996353149414,
+          27.25418472290039
+        ],
+        "mixamorig:RightHand": [
+          38.19718933105469,
+          55.04489517211914,
+          -6.932903289794922
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          115.24681854248047,
+          49.22410202026367,
+          -0.16471925377845764
+        ],
+        "mixamorig:LeftHand": [
+          105.87913513183594,
+          56.64213943481445,
+          24.35344886779785
+        ],
+        "mixamorig:RightHand": [
+          96.92042541503906,
+          54.50027847290039,
+          -4.852773666381836
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield turn (2).fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          29.0
+        ],
+        "seconds": 0.9333333333333333
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.23633795976638794,
+          43.17237091064453,
+          -0.13591066002845764
+        ],
+        "mixamorig:LeftHand": [
+          -5.975306510925293,
+          56.5386962890625,
+          22.95448875427246
+        ],
+        "mixamorig:RightHand": [
+          -20.420413970947266,
+          53.01586151123047,
+          -11.409080505371094
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          1.7074697017669678,
+          43.540191650390625,
+          -13.615592956542969
+        ],
+        "mixamorig:LeftHand": [
+          14.579427719116211,
+          56.47351837158203,
+          9.18917179107666
+        ],
+        "mixamorig:RightHand": [
+          -15.615692138671875,
+          61.944740295410156,
+          6.3706583976745605
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -0.1734728217124939,
+          43.14786911010742,
+          -0.21630389988422394
+        ],
+        "mixamorig:LeftHand": [
+          23.618682861328125,
+          56.50730514526367,
+          2.178466796875
+        ],
+        "mixamorig:RightHand": [
+          -7.957466125488281,
+          52.99042510986328,
+          21.990203857421875
+        ]
+      }
+    ]
+  },
+  {
+    "file": "sword and shield turn.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          29.0
+        ],
+        "seconds": 0.9333333333333333
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.0,
+          51.133750915527344,
+          0.0
+        ],
+        "quat": [
+          0.7071067690849304,
+          -0.0,
+          -0.7071067690849304,
+          3.090862321641907e-08
+        ]
+      },
+      "Spine": {
+        "head": [
+          -1.365325204005785e-07,
+          54.25725173950195,
+          -1.3653253461143322e-07
+        ],
+        "quat": [
+          0.7071067690849304,
+          -1.2560739454502297e-15,
+          -0.7071067690849304,
+          3.0908619663705394e-08
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.917771339416504,
+          78.75749206542969,
+          -2.7330589294433594
+        ],
+        "quat": [
+          0.4802989363670349,
+          0.5189537405967712,
+          -0.5189537405967712,
+          0.4802989661693573
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -24.656375885009766,
+          78.75749206542969,
+          -2.733060836791992
+        ],
+        "quat": [
+          0.5824947357177734,
+          0.40087369084358215,
+          -0.40087375044822693,
+          0.5824949145317078
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -37.64188003540039,
+          78.75749206542969,
+          -2.733062505722046
+        ],
+        "quat": [
+          0.571582019329071,
+          0.36085718870162964,
+          -0.40067386627197266,
+          0.6184954047203064
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          37.521419525146484,
+          78.75768280029297,
+          -2.7330386638641357
+        ],
+        "quat": [
+          0.5427922010421753,
+          -0.49618127942085266,
+          -0.4322645664215088,
+          -0.5218507051467896
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          5.075600624084473,
+          6.051702499389648,
+          -2.342599630355835
+        ],
+        "quat": [
+          0.046134717762470245,
+          0.27478015422821045,
+          0.49942171573638916,
+          0.8203325271606445
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.23619264364242554,
+          43.17110061645508,
+          -0.1382770836353302
+        ],
+        "mixamorig:LeftHand": [
+          -5.978022575378418,
+          56.53860092163086,
+          22.950721740722656
+        ],
+        "mixamorig:RightHand": [
+          -20.41775131225586,
+          53.01625061035156,
+          -11.415163040161133
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          14.891247749328613,
+          43.56689453125,
+          5.518458843231201
+        ],
+        "mixamorig:LeftHand": [
+          -9.392451286315918,
+          56.53191375732422,
+          17.438873291015625
+        ],
+        "mixamorig:RightHand": [
+          13.784562110900879,
+          59.9149284362793,
+          -18.432785034179688
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          0.09825769066810608,
+          43.17118453979492,
+          0.2554633915424347
+        ],
+        "mixamorig:LeftHand": [
+          -21.68021011352539,
+          56.54706954956055,
+          -9.610815048217773
+        ],
+        "mixamorig:RightHand": [
+          14.567928314208984,
+          53.018310546875,
+          -18.302650451660156
+        ]
+      }
+    ]
+  },
+  {
+    "file": "tripo_convert_62f49598-8baf-4aba-afc2-817cb2d31f1b.fbx",
+    "bones": 65,
+    "bone_names": [
+      "mixamorig:Hips",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:LeftToe_End",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:HeadTop_End",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase",
+      "mixamorig:RightToe_End"
+    ],
+    "scale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "matrix_world": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549789682315122e-10,
+        -0.009999999776482582,
+        0.0
+      ],
+      [
+        0.0,
+        0.009999999776482582,
+        7.549789682315122e-10,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fps": 30,
+    "actions": [
+      {
+        "name": "Armature|box_01.001|Base Layer",
+        "frames": [
+          1.0,
+          67.25
+        ],
+        "seconds": 2.2083333333333335
+      },
+      {
+        "name": "Armature|chop.001|Base Layer",
+        "frames": [
+          1.0,
+          198.5
+        ],
+        "seconds": 6.583333333333333
+      },
+      {
+        "name": "Armature|defeat_03.001|Base Layer",
+        "frames": [
+          1.0,
+          167.25
+        ],
+        "seconds": 5.541666666666667
+      },
+      {
+        "name": "Armature|fall.001|Base Layer",
+        "frames": [
+          1.0,
+          91.0
+        ],
+        "seconds": 3.0
+      },
+      {
+        "name": "Armature|hit_to_body_01.001|Base Layer",
+        "frames": [
+          1.0,
+          39.75
+        ],
+        "seconds": 1.2916666666666667
+      },
+      {
+        "name": "Armature|hit_to_body_02.001|Base Layer",
+        "frames": [
+          1.0,
+          52.25
+        ],
+        "seconds": 1.7083333333333333
+      },
+      {
+        "name": "Armature|hit_to_head.001|Base Layer",
+        "frames": [
+          1.0,
+          56.0
+        ],
+        "seconds": 1.8333333333333333
+      },
+      {
+        "name": "Armature|hit_to_stomach.001|Base Layer",
+        "frames": [
+          1.0,
+          47.25
+        ],
+        "seconds": 1.5416666666666667
+      },
+      {
+        "name": "Armature|idle.001|Base Layer",
+        "frames": [
+          1.0,
+          461.0
+        ],
+        "seconds": 15.333333333333334
+      },
+      {
+        "name": "Armature|look_around.001|Base Layer",
+        "frames": [
+          1.0,
+          468.5
+        ],
+        "seconds": 15.583333333333334
+      },
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "frames": [
+          1.0,
+          2.0
+        ],
+        "seconds": 0.03333333333333333
+      },
+      {
+        "name": "Armature|standing_relax.001|Base Layer",
+        "frames": [
+          1.0,
+          528.5
+        ],
+        "seconds": 17.583333333333332
+      },
+      {
+        "name": "Armature|walk.001|Base Layer",
+        "frames": [
+          1.0,
+          71.0
+        ],
+        "seconds": 2.3333333333333335
+      }
+    ],
+    "rest": {
+      "Hips": {
+        "head": [
+          0.19522090256214142,
+          0.195217102766037,
+          50.951663970947266
+        ],
+        "quat": [
+          0.5000000596046448,
+          0.5000000596046448,
+          -0.4999999403953552,
+          -0.5
+        ]
+      },
+      "Spine": {
+        "head": [
+          0.1952212005853653,
+          0.195217102766037,
+          54.075138092041016
+        ],
+        "quat": [
+          0.5000000596046448,
+          0.5000000596046448,
+          -0.4999999403953552,
+          -0.5
+        ]
+      },
+      "RightArm": {
+        "head": [
+          -9.565632820129395,
+          2.928255558013916,
+          76.72032165527344
+        ],
+        "quat": [
+          0.42998698353767395,
+          -0.584467351436615,
+          0.5844671130180359,
+          -0.36319053173065186
+        ]
+      },
+      "RightForeArm": {
+        "head": [
+          -15.031718254089355,
+          3.709122657775879,
+          63.05512619018555
+        ],
+        "quat": [
+          0.26767605543136597,
+          -0.5462353825569153,
+          0.5462351441383362,
+          -0.5758503079414368
+        ]
+      },
+      "RightHand": {
+        "head": [
+          -18.777557373046875,
+          0.3335022032260895,
+          51.088623046875
+        ],
+        "quat": [
+          0.2920830249786377,
+          -0.5431800484657288,
+          0.5431801080703735,
+          -0.5697353482246399
+        ]
+      },
+      "LeftHand": {
+        "head": [
+          18.863672256469727,
+          0.5073566436767578,
+          51.079551696777344
+        ],
+        "quat": [
+          0.4440172016620636,
+          -0.4312410056591034,
+          0.4312421977519989,
+          -0.6564373970031738
+        ]
+      },
+      "LeftFoot": {
+        "head": [
+          9.175189971923828,
+          2.5378236770629883,
+          6.051719665527344
+        ],
+        "quat": [
+          0.16168063879013062,
+          -0.22692400217056274,
+          0.2269180566072464,
+          -0.9332059025764465
+        ]
+      }
+    },
+    "samples": [
+      {
+        "mixamorig:Hips": [
+          0.19521869719028473,
+          0.195217102766037,
+          53.10211944580078
+        ],
+        "mixamorig:LeftHand": [
+          14.013715744018555,
+          -0.6751384735107422,
+          56.02778625488281
+        ],
+        "mixamorig:RightHand": [
+          -16.748769760131836,
+          -0.6766644716262817,
+          55.687469482421875
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -8.644828796386719,
+          23.237550735473633,
+          27.0566463470459
+        ],
+        "mixamorig:LeftHand": [
+          14.494124412536621,
+          35.15636444091797,
+          41.901527404785156
+        ],
+        "mixamorig:RightHand": [
+          -30.82969093322754,
+          25.550600051879883,
+          35.95412826538086
+        ]
+      },
+      {
+        "mixamorig:Hips": [
+          -16.817712783813477,
+          -0.7126455307006836,
+          8.899620056152344
+        ],
+        "mixamorig:LeftHand": [
+          -17.262914657592773,
+          5.846726417541504,
+          53.03349304199219
+        ],
+        "mixamorig:RightHand": [
+          -45.155582427978516,
+          5.406113147735596,
+          17.43806266784668
+        ]
+      }
+    ]
+  }
+]
