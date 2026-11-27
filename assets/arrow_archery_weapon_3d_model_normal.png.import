@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4fnothu0iwpb"
 path.bptc="res://.godot/imported/arrow_archery_weapon_3d_model_normal.png-72baf7201559bac61690e802a14c1bd4.bptc.ctex"
+path.astc="res://.godot/imported/arrow_archery_weapon_3d_model_normal.png-72baf7201559bac61690e802a14c1bd4.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/arrow_archery_weapon_3d_model_normal.png"
-dest_files=["res://.godot/imported/arrow_archery_weapon_3d_model_normal.png-72baf7201559bac61690e802a14c1bd4.bptc.ctex"]
+dest_files=["res://.godot/imported/arrow_archery_weapon_3d_model_normal.png-72baf7201559bac61690e802a14c1bd4.bptc.ctex", "res://.godot/imported/arrow_archery_weapon_3d_model_normal.png-72baf7201559bac61690e802a14c1bd4.astc.ctex"]
 
 [params]
 

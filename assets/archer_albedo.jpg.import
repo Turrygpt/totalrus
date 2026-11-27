@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfr7pakbjprrq"
 path.bptc="res://.godot/imported/archer_albedo.jpg-ecbc9371d4b017e0c746f9fbb35b01e8.bptc.ctex"
+path.astc="res://.godot/imported/archer_albedo.jpg-ecbc9371d4b017e0c746f9fbb35b01e8.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/archer_albedo.jpg"
-dest_files=["res://.godot/imported/archer_albedo.jpg-ecbc9371d4b017e0c746f9fbb35b01e8.bptc.ctex"]
+dest_files=["res://.godot/imported/archer_albedo.jpg-ecbc9371d4b017e0c746f9fbb35b01e8.bptc.ctex", "res://.godot/imported/archer_albedo.jpg-ecbc9371d4b017e0c746f9fbb35b01e8.astc.ctex"]
 
 [params]
 

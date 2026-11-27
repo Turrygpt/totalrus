@@ -159,6 +159,9 @@ var remaining_campaign_tracks: Array[AudioStream] = []
 var campaign_music_position := 0.0
 
 func _ready() -> void:
+	if "--standalone-battle" in OS.get_cmdline_user_args():
+		get_tree().change_scene_to_file.call_deferred(BATTLE_SCENE)
+		return
 	get_viewport().use_taa = true
 	setup_ladoga()
 	name_existing_squads()

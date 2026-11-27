@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b25atsa1mbqge"
 path.s3tc="res://.godot/imported/warrior_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-a05064e61b7793e1df2ee857e0b9ab77.s3tc.ctex"
+path.etc2="res://.godot/imported/warrior_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-a05064e61b7793e1df2ee857e0b9ab77.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/warrior_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg"
-dest_files=["res://.godot/imported/warrior_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-a05064e61b7793e1df2ee857e0b9ab77.s3tc.ctex"]
+dest_files=["res://.godot/imported/warrior_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-a05064e61b7793e1df2ee857e0b9ab77.s3tc.ctex", "res://.godot/imported/warrior_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-a05064e61b7793e1df2ee857e0b9ab77.etc2.ctex"]
 
 [params]
 

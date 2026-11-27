@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjxj1epdu5osl"
 path.bptc="res://.godot/imported/horseman_quaternius_horse_roughness.png-e7755845ac3a3a0bdb468a2f04dcdace.bptc.ctex"
+path.astc="res://.godot/imported/horseman_quaternius_horse_roughness.png-e7755845ac3a3a0bdb468a2f04dcdace.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/horseman_quaternius_horse_roughness.png"
-dest_files=["res://.godot/imported/horseman_quaternius_horse_roughness.png-e7755845ac3a3a0bdb468a2f04dcdace.bptc.ctex"]
+dest_files=["res://.godot/imported/horseman_quaternius_horse_roughness.png-e7755845ac3a3a0bdb468a2f04dcdace.bptc.ctex", "res://.godot/imported/horseman_quaternius_horse_roughness.png-e7755845ac3a3a0bdb468a2f04dcdace.astc.ctex"]
 
 [params]
 

@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://xo7mnoyc4kbf"
 path.bptc="res://.godot/imported/varangian_body_varangian_color.jpg-28a8d92350772d61b4ed6526091d3833.bptc.ctex"
+path.astc="res://.godot/imported/varangian_body_varangian_color.jpg-28a8d92350772d61b4ed6526091d3833.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/varangian_body_varangian_color.jpg"
-dest_files=["res://.godot/imported/varangian_body_varangian_color.jpg-28a8d92350772d61b4ed6526091d3833.bptc.ctex"]
+dest_files=["res://.godot/imported/varangian_body_varangian_color.jpg-28a8d92350772d61b4ed6526091d3833.bptc.ctex", "res://.godot/imported/varangian_body_varangian_color.jpg-28a8d92350772d61b4ed6526091d3833.astc.ctex"]
 
 [params]
 

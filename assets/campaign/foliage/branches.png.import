@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://gvcrbct6pbx7"
 path.s3tc="res://.godot/imported/branches.png-fa2d6747ecf83a3046c2f5de47ab0919.s3tc.ctex"
+path.etc2="res://.godot/imported/branches.png-fa2d6747ecf83a3046c2f5de47ab0919.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/campaign/foliage/branches.png"
-dest_files=["res://.godot/imported/branches.png-fa2d6747ecf83a3046c2f5de47ab0919.s3tc.ctex"]
+dest_files=["res://.godot/imported/branches.png-fa2d6747ecf83a3046c2f5de47ab0919.s3tc.ctex", "res://.godot/imported/branches.png-fa2d6747ecf83a3046c2f5de47ab0919.etc2.ctex"]
 
 [params]
 

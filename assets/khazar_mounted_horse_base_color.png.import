@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://chjaxs8xwy4nb"
 path.bptc="res://.godot/imported/khazar_mounted_horse_base_color.png-da9c4d8b18f34bfb96ad22a14bb28d67.bptc.ctex"
+path.astc="res://.godot/imported/khazar_mounted_horse_base_color.png-da9c4d8b18f34bfb96ad22a14bb28d67.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/khazar_mounted_horse_base_color.png"
-dest_files=["res://.godot/imported/khazar_mounted_horse_base_color.png-da9c4d8b18f34bfb96ad22a14bb28d67.bptc.ctex"]
+dest_files=["res://.godot/imported/khazar_mounted_horse_base_color.png-da9c4d8b18f34bfb96ad22a14bb28d67.bptc.ctex", "res://.godot/imported/khazar_mounted_horse_base_color.png-da9c4d8b18f34bfb96ad22a14bb28d67.astc.ctex"]
 
 [params]
 

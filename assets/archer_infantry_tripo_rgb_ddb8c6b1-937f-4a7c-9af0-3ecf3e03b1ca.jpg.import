@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0xpk25f5syb1"
 path.bptc="res://.godot/imported/archer_infantry_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-0d1b66ee87e73cc581e79e86773f65c1.bptc.ctex"
+path.astc="res://.godot/imported/archer_infantry_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-0d1b66ee87e73cc581e79e86773f65c1.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/archer_infantry_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg"
-dest_files=["res://.godot/imported/archer_infantry_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-0d1b66ee87e73cc581e79e86773f65c1.bptc.ctex"]
+dest_files=["res://.godot/imported/archer_infantry_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-0d1b66ee87e73cc581e79e86773f65c1.bptc.ctex", "res://.godot/imported/archer_infantry_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-0d1b66ee87e73cc581e79e86773f65c1.astc.ctex"]
 
 [params]
 

@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0yiynjrqckl0"
 path.bptc="res://.godot/imported/horseman_quaternius_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-e84decbfd6b488e56fa47cfc236a6aef.bptc.ctex"
+path.astc="res://.godot/imported/horseman_quaternius_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-e84decbfd6b488e56fa47cfc236a6aef.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/horseman_quaternius_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg"
-dest_files=["res://.godot/imported/horseman_quaternius_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-e84decbfd6b488e56fa47cfc236a6aef.bptc.ctex"]
+dest_files=["res://.godot/imported/horseman_quaternius_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-e84decbfd6b488e56fa47cfc236a6aef.bptc.ctex", "res://.godot/imported/horseman_quaternius_tripo_rgb_ddb8c6b1-937f-4a7c-9af0-3ecf3e03b1ca.jpg-e84decbfd6b488e56fa47cfc236a6aef.astc.ctex"]
 
 [params]
 

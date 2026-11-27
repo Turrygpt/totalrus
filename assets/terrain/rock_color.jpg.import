@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5dlf0uw3jf3m"
 path.s3tc="res://.godot/imported/rock_color.jpg-fe59ffc7ef44e470726b26339f609999.s3tc.ctex"
+path.etc2="res://.godot/imported/rock_color.jpg-fe59ffc7ef44e470726b26339f609999.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/terrain/rock_color.jpg"
-dest_files=["res://.godot/imported/rock_color.jpg-fe59ffc7ef44e470726b26339f609999.s3tc.ctex"]
+dest_files=["res://.godot/imported/rock_color.jpg-fe59ffc7ef44e470726b26339f609999.s3tc.ctex", "res://.godot/imported/rock_color.jpg-fe59ffc7ef44e470726b26339f609999.etc2.ctex"]
 
 [params]
 

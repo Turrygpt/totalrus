@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvbbwe300h4dh"
 path.bptc="res://.godot/imported/horseman_quaternius_horse_normal.png-bb0018b3ef4791aeffa3b846c94281b4.bptc.ctex"
+path.astc="res://.godot/imported/horseman_quaternius_horse_normal.png-bb0018b3ef4791aeffa3b846c94281b4.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/horseman_quaternius_horse_normal.png"
-dest_files=["res://.godot/imported/horseman_quaternius_horse_normal.png-bb0018b3ef4791aeffa3b846c94281b4.bptc.ctex"]
+dest_files=["res://.godot/imported/horseman_quaternius_horse_normal.png-bb0018b3ef4791aeffa3b846c94281b4.bptc.ctex", "res://.godot/imported/horseman_quaternius_horse_normal.png-bb0018b3ef4791aeffa3b846c94281b4.astc.ctex"]
 
 [params]
 

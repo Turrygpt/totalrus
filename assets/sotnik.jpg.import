@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyatlghae4xqy"
 path.bptc="res://.godot/imported/sotnik.jpg-dd71f32a2bd804193a4be643b8e6026f.bptc.ctex"
+path.astc="res://.godot/imported/sotnik.jpg-dd71f32a2bd804193a4be643b8e6026f.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/sotnik.jpg"
-dest_files=["res://.godot/imported/sotnik.jpg-dd71f32a2bd804193a4be643b8e6026f.bptc.ctex"]
+dest_files=["res://.godot/imported/sotnik.jpg-dd71f32a2bd804193a4be643b8e6026f.bptc.ctex", "res://.godot/imported/sotnik.jpg-dd71f32a2bd804193a4be643b8e6026f.astc.ctex"]
 
 [params]
 

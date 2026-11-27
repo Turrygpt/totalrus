@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0bm7twhpo24f"
 path.bptc="res://.godot/imported/spear_shield_variants_spear_shield_atlas.jpg-0c5549826700a5b5547a513b69d5e941.bptc.ctex"
+path.astc="res://.godot/imported/spear_shield_variants_spear_shield_atlas.jpg-0c5549826700a5b5547a513b69d5e941.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/spear_shield_variants_spear_shield_atlas.jpg"
-dest_files=["res://.godot/imported/spear_shield_variants_spear_shield_atlas.jpg-0c5549826700a5b5547a513b69d5e941.bptc.ctex"]
+dest_files=["res://.godot/imported/spear_shield_variants_spear_shield_atlas.jpg-0c5549826700a5b5547a513b69d5e941.bptc.ctex", "res://.godot/imported/spear_shield_variants_spear_shield_atlas.jpg-0c5549826700a5b5547a513b69d5e941.astc.ctex"]
 
 [params]
 

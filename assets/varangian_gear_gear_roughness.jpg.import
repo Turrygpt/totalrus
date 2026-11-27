@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn7grjmrnn78"
 path.bptc="res://.godot/imported/varangian_gear_gear_roughness.jpg-1916099f3e226bb0eaf0a0bcfefd0c91.bptc.ctex"
+path.astc="res://.godot/imported/varangian_gear_gear_roughness.jpg-1916099f3e226bb0eaf0a0bcfefd0c91.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/varangian_gear_gear_roughness.jpg"
-dest_files=["res://.godot/imported/varangian_gear_gear_roughness.jpg-1916099f3e226bb0eaf0a0bcfefd0c91.bptc.ctex"]
+dest_files=["res://.godot/imported/varangian_gear_gear_roughness.jpg-1916099f3e226bb0eaf0a0bcfefd0c91.bptc.ctex", "res://.godot/imported/varangian_gear_gear_roughness.jpg-1916099f3e226bb0eaf0a0bcfefd0c91.astc.ctex"]
 
 [params]
 

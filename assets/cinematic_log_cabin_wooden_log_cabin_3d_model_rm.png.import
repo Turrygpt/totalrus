@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bb7lpdcb15wfu"
 path.bptc="res://.godot/imported/cinematic_log_cabin_wooden_log_cabin_3d_model_rm.png-a2abd510506ece6d9592d48054a02775.bptc.ctex"
+path.astc="res://.godot/imported/cinematic_log_cabin_wooden_log_cabin_3d_model_rm.png-a2abd510506ece6d9592d48054a02775.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/cinematic_log_cabin_wooden_log_cabin_3d_model_rm.png"
-dest_files=["res://.godot/imported/cinematic_log_cabin_wooden_log_cabin_3d_model_rm.png-a2abd510506ece6d9592d48054a02775.bptc.ctex"]
+dest_files=["res://.godot/imported/cinematic_log_cabin_wooden_log_cabin_3d_model_rm.png-a2abd510506ece6d9592d48054a02775.bptc.ctex", "res://.godot/imported/cinematic_log_cabin_wooden_log_cabin_3d_model_rm.png-a2abd510506ece6d9592d48054a02775.astc.ctex"]
 
 [params]
 

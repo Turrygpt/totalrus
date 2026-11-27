@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpxvi3wviyqb"
 path.bptc="res://.godot/imported/varangian_gear_gear_color.jpg-1ecbf17948afaeb28883bc0c7030af88.bptc.ctex"
+path.astc="res://.godot/imported/varangian_gear_gear_color.jpg-1ecbf17948afaeb28883bc0c7030af88.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/varangian_gear_gear_color.jpg"
-dest_files=["res://.godot/imported/varangian_gear_gear_color.jpg-1ecbf17948afaeb28883bc0c7030af88.bptc.ctex"]
+dest_files=["res://.godot/imported/varangian_gear_gear_color.jpg-1ecbf17948afaeb28883bc0c7030af88.bptc.ctex", "res://.godot/imported/varangian_gear_gear_color.jpg-1ecbf17948afaeb28883bc0c7030af88.astc.ctex"]
 
 [params]
 

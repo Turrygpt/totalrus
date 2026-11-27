@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://clye60fyhjtr1"
 path.bptc="res://.godot/imported/prince_mounted_horse_roughness.png-dbfebe7262b4042d0bcec4cc44c9254d.bptc.ctex"
+path.astc="res://.godot/imported/prince_mounted_horse_roughness.png-dbfebe7262b4042d0bcec4cc44c9254d.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/prince/prince_mounted_horse_roughness.png"
-dest_files=["res://.godot/imported/prince_mounted_horse_roughness.png-dbfebe7262b4042d0bcec4cc44c9254d.bptc.ctex"]
+dest_files=["res://.godot/imported/prince_mounted_horse_roughness.png-dbfebe7262b4042d0bcec4cc44c9254d.bptc.ctex", "res://.godot/imported/prince_mounted_horse_roughness.png-dbfebe7262b4042d0bcec4cc44c9254d.astc.ctex"]
 
 [params]
 

@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://nk54q2iwm38p"
 path.bptc="res://.godot/imported/khazar_bow_wooden_staff_3d_model_rm.jpg-7af7ff20896d5c672e310d33788c7768.bptc.ctex"
+path.astc="res://.godot/imported/khazar_bow_wooden_staff_3d_model_rm.jpg-7af7ff20896d5c672e310d33788c7768.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/khazar_bow_wooden_staff_3d_model_rm.jpg"
-dest_files=["res://.godot/imported/khazar_bow_wooden_staff_3d_model_rm.jpg-7af7ff20896d5c672e310d33788c7768.bptc.ctex"]
+dest_files=["res://.godot/imported/khazar_bow_wooden_staff_3d_model_rm.jpg-7af7ff20896d5c672e310d33788c7768.bptc.ctex", "res://.godot/imported/khazar_bow_wooden_staff_3d_model_rm.jpg-7af7ff20896d5c672e310d33788c7768.astc.ctex"]
 
 [params]
 

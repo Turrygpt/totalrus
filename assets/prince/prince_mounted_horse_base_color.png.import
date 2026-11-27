@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bptttipalvbhn"
 path.bptc="res://.godot/imported/prince_mounted_horse_base_color.png-e3bcd8d8eb6ac224650bccb53e7e3a20.bptc.ctex"
+path.astc="res://.godot/imported/prince_mounted_horse_base_color.png-e3bcd8d8eb6ac224650bccb53e7e3a20.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/prince/prince_mounted_horse_base_color.png"
-dest_files=["res://.godot/imported/prince_mounted_horse_base_color.png-e3bcd8d8eb6ac224650bccb53e7e3a20.bptc.ctex"]
+dest_files=["res://.godot/imported/prince_mounted_horse_base_color.png-e3bcd8d8eb6ac224650bccb53e7e3a20.bptc.ctex", "res://.godot/imported/prince_mounted_horse_base_color.png-e3bcd8d8eb6ac224650bccb53e7e3a20.astc.ctex"]
 
 [params]
 

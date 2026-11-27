@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjhrhtc6u6hi7"
 path.bptc="res://.godot/imported/quiver_archery_weapon_3d_model_normal.png-5ac806fcf3d09fc9076ffd61314d4076.bptc.ctex"
+path.astc="res://.godot/imported/quiver_archery_weapon_3d_model_normal.png-5ac806fcf3d09fc9076ffd61314d4076.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/quiver_archery_weapon_3d_model_normal.png"
-dest_files=["res://.godot/imported/quiver_archery_weapon_3d_model_normal.png-5ac806fcf3d09fc9076ffd61314d4076.bptc.ctex"]
+dest_files=["res://.godot/imported/quiver_archery_weapon_3d_model_normal.png-5ac806fcf3d09fc9076ffd61314d4076.bptc.ctex", "res://.godot/imported/quiver_archery_weapon_3d_model_normal.png-5ac806fcf3d09fc9076ffd61314d4076.astc.ctex"]
 
 [params]
 

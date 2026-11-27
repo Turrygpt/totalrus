@@ -15,3 +15,4 @@ Thumbs.db
 /native/*.exp
 /native/*.obj
 /native/*.[Tt][Mm][Pp]
+/native/~*.dll

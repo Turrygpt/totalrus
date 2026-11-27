@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://droy0wfq3neb1"
 path.bptc="res://.godot/imported/recurve_bow_wooden_staff_3d_model_rm.jpg-82cac9fe5e9fa43876a2d777afe1c505.bptc.ctex"
+path.astc="res://.godot/imported/recurve_bow_wooden_staff_3d_model_rm.jpg-82cac9fe5e9fa43876a2d777afe1c505.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/recurve_bow_wooden_staff_3d_model_rm.jpg"
-dest_files=["res://.godot/imported/recurve_bow_wooden_staff_3d_model_rm.jpg-82cac9fe5e9fa43876a2d777afe1c505.bptc.ctex"]
+dest_files=["res://.godot/imported/recurve_bow_wooden_staff_3d_model_rm.jpg-82cac9fe5e9fa43876a2d777afe1c505.bptc.ctex", "res://.godot/imported/recurve_bow_wooden_staff_3d_model_rm.jpg-82cac9fe5e9fa43876a2d777afe1c505.astc.ctex"]
 
 [params]
 

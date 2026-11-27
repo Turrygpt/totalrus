@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://jq6m2sw8ithx"
 path.bptc="res://.godot/imported/khazar_mounted_khazar_roughness_metallic.jpg-748b22917d98e1e86a4936acc44b78ef.bptc.ctex"
+path.astc="res://.godot/imported/khazar_mounted_khazar_roughness_metallic.jpg-748b22917d98e1e86a4936acc44b78ef.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/khazar_mounted_khazar_roughness_metallic.jpg"
-dest_files=["res://.godot/imported/khazar_mounted_khazar_roughness_metallic.jpg-748b22917d98e1e86a4936acc44b78ef.bptc.ctex"]
+dest_files=["res://.godot/imported/khazar_mounted_khazar_roughness_metallic.jpg-748b22917d98e1e86a4936acc44b78ef.bptc.ctex", "res://.godot/imported/khazar_mounted_khazar_roughness_metallic.jpg-748b22917d98e1e86a4936acc44b78ef.astc.ctex"]
 
 [params]
 
